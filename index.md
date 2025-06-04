@@ -5,9 +5,13 @@ title: Inicio
 
 <img src="assets/img/marcela.jpeg" alt="foto de Marcela" style="width: 180px; border-radius: 100px; display: block; margin: 0 auto 20px;" />
 
-# 👋 Hola, soy Marcela!
+# 👋 ¡Hola, soy Marcela!
 
-Bienvenido/a a mi blog personal. Aquí iré publicando contenido sobre ciberseguridad y programación:
+Bienvenido/a a mi rincón digital. Soy una chica que vive y respira red team, ciberseguridad y todo lo relacionado con el hacking ético. Me encanta aprender, romper cosas (para entender cómo funcionan) y luego compartir ese conocimiento para hacer de internet un lugar más seguro.
+Actualmente estudio programación en 42 Madrid, donde cada día es un nuevo reto (y sí, a veces el café es mi mejor aliado ☕).
+Aquí encontrarás desde técnicas ofensivas hasta reflexiones del mundo hacker… sin filtros y con mucha pasión. ¡Ponte cómodo/a y prepárate para sumergirte en el lado rojo del ciberespacio! 🔥🔒
+
+---
 
 - [Writeups de máqinas](writeups/)
 - [Apuntes de hacking y pentesting](apuntes/)

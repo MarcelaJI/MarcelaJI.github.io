@@ -13,6 +13,7 @@ En esta sección encontrarás notas, herramientas y técnicas sobre hacking éti
 - [Direcciones MAC](direcciones_mac)
 - [Protocolos Comunes](protocolos_comunes)
 - [Modelo OSI](modelo_osi)
+- [Subnetting](subnetting)
 
 ---
 

@@ -65,3 +65,8 @@
 : 1749028898:0;cd proyectos_42
 : 1749029065:0;cd articulos_tecnicos
 : 1749029246:0;git add .
+: 1749029256:0;git commit -m "Updating"
+: 1749029261:0;git push
+: 1749029464:0;cd ..apuntes
+: 1749029467:0;cd apuntes
+: 1749030338:0;git add .

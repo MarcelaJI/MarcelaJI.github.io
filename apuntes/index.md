@@ -7,5 +7,9 @@ title: Apuntes
 
 En esta sección encontrarás notas, herramientas y técnicas sobre hacking ético y pentesting.
 
+## Lista de apuntes
+
+- [Dirrecciones IP](01-direcciones_ip.md)
+
 ---
 

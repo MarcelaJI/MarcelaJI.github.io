@@ -9,7 +9,7 @@ En esta sección encontrarás notas, herramientas y técnicas sobre hacking éti
 
 ## Lista de apuntes
 
-- [Dirrecciones IP](01-direcciones_ip.md)
+- [Dirrecciones IP](direcciones_ip)
 
 ---
 

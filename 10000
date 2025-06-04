@@ -9,3 +9,10 @@
 : 1749017555:0;bundle install
 : 1749017632:0;bundle exec jekyll serve
 : 1749017764:0;git add .
+: 1749017777:0;git commit -m "Adding init conf"
+: 1749017783:0;git push
+: 1749017905:0;nvim index.md
+: 1749018934:0;nvim _config.yml
+: 1749019028:0;cat _config.yml
+: 1749019057:0;bundle exec jekyll serve
+: 1749019100:0;git add .

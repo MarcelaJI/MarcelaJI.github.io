@@ -22,3 +22,11 @@
 : 1749019226:0;bundle exec jekyll serve
 : 1749019369:0;git status
 : 1749019392:0;git add .
+: 1749019404:0;git commit -m "Adding changes"
+: 1749019408:0;git push
+: 1749026074:0;nvim _config.yml
+: 1749026088:0;nvim index.md
+: 1749026104:0;nvim _config.yml
+: 1749026113:0;nvim index.md
+: 1749026503:0;bundle exec jekyll serve
+: 1749026570:0;git add .

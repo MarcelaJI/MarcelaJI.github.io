@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Bienvenida!
+title: Inicio
 ---
 
 # 👋 Hola, soy Marcela!
@@ -21,5 +21,10 @@ Si quieres contactar con mi trabajo:
 [Github](https://github.com/MarcelaJi)
 [Linkedln](https://linkedin.com/in/marcela-jimenez-/)
 
+---
 
-Gracias por visitar!
+Gracias por visitar mi blog!
+
+<div style="text-align:center; font-size: 0.9em; margint-top: 40px; color: #33ff33;">
+    💻 Hecho con 💚 por <strong>Marcela</strong> - 2025
+</div>

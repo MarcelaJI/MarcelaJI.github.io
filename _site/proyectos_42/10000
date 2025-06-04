@@ -10,3 +10,8 @@
 : 1749032587:0;ls
 : 1749032622:0;nvim so_long.md
 : 1749032803:0;cd
+: 1749033200:0;nvim so_long.md
+: 1749033229:0;git add .
+: 1749033237:0;git commit -m "Updating"
+: 1749033239:0;git push
+: 1749033418:0;cd ..

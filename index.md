@@ -3,6 +3,8 @@ layout: default
 title: Inicio
 ---
 
+<img src="assets/img/marcela.jpeg" alt="foto de Marcela" style="width: 180px; border-radius: 100px; display: block; margin: 0 auto 20px;" />
+
 # 👋 Hola, soy Marcela!
 
 Bienvenido/a a mi blog personal. Aquí iré publicando contenido sobre ciberseguridad y programación:

@@ -81,3 +81,14 @@
 : 1749031052:0;git push
 : 1749031778:0;cd proyectos_42
 : 1749033081:0;git add .
+: 1749033091:0;git commit -m "Updating"
+: 1749033095:0;git push
+: 1749033419:0;ls
+: 1749033437:0;mkdir -p assets/img
+: 1749033462:0;ls
+: 1749033534:0;cd 
+: 1749033667:0;cd assets
+: 1749033729:0;nvim index.md
+: 1749033781:0;cd 
+: 1749033796:0;cd assets
+: 1749033997:0;git add .

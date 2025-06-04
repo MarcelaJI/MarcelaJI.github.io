@@ -69,3 +69,7 @@ El juego muestra mensajes en la terminal sobre los movimientos del dragón y el 
 Si el mapa no es válido o falta algún elemento obligatorio (P, C, E), se mostrará un mensaje de error.
 
 ---
+
+<div style="text-align:center; font-size: 0.9em; margint-top: 40px; color: #33ff33;">
+    💻 Hecho con 💚 por <strong>Marcela</strong> - 2025
+</div>

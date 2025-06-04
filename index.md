@@ -5,7 +5,7 @@ title: Inicio
 
 # 👋 Hola, soy Marcela!
 
-Bienvenido a mi blog personal. Aquí iré publicando contenido sobre ciberseguridad y programación:
+Bienvenido/a a mi blog personal. Aquí iré publicando contenido sobre ciberseguridad y programación:
 
 - [Writeups de máqinas](writeups/)
 - [Apuntes de hacking y pentesting](apuntes/)

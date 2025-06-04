@@ -7,7 +7,7 @@ title: Inicio
 
 # 👋 ¡Hola, soy Marcela!
 
-Bienvenido/a a mi rincón digital. Soy una chica que vive y respira red team, ciberseguridad y todo lo relacionado con el hacking ético. Me encanta aprender, romper cosas (para entender cómo funcionan) y luego compartir ese conocimiento para hacer de internet un lugar más seguro.
+Bienvenido/a a mi blog personal. Soy una chica que vive y respira red team, ciberseguridad y todo lo relacionado con el hacking ético. Me encanta aprender, romper cosas (para entender cómo funcionan) y luego compartir ese conocimiento para hacer de internet un lugar más seguro.
 Actualmente estudio programación en 42 Madrid, donde cada día es un nuevo reto (y sí, a veces el café es mi mejor aliado ☕).
 Aquí encontrarás desde técnicas ofensivas hasta reflexiones del mundo hacker… sin filtros y con mucha pasión. ¡Ponte cómodo/a y prepárate para sumergirte en el lado rojo del ciberespacio! 🔥🔒
 

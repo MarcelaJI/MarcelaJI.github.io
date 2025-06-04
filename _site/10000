@@ -15,3 +15,9 @@
 : 1749018934:0;nvim _config.yml
 : 1749019028:0;cat _config.yml
 : 1749019057:0;bundle exec jekyll serve
+: 1749019100:0;git add .
+: 1749019124:0;git commit -m "Adding index.md"
+: 1749019127:0;git push
+: 1749019176:0;nvim _config.yml
+: 1749019226:0;bundle exec jekyll serve
+: 1749019369:0;git status

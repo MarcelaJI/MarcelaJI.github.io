@@ -12,6 +12,7 @@ En esta sección encontrarás notas, herramientas y técnicas sobre hacking éti
 - [Dirrecciones IP](direcciones_ip)
 - [Direcciones MAC](direcciones_mac)
 - [Protocolos Comunes](protocolos_comunes)
+- [Modelo OSI](modelo_osi)
 
 ---
 

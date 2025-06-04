@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup theme-color -->
+<!-- start theme color meta headers -->
+<meta name="theme-color" content="#151515">
+<meta name="msapplication-navbutton-color" content="#151515">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<!-- end theme color meta headers -->
+
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>So_Long | Marcela’s Hackblog</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="So_Long" />
+<meta name="author" content="Marcela Jimenez" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="CTFs, hacking ético, programación y más." />
+<meta property="og:description" content="CTFs, hacking ético, programación y más." />
+<link rel="canonical" href="http://localhost:4000/proyectos_42/so_long.html" />
+<meta property="og:url" content="http://localhost:4000/proyectos_42/so_long.html" />
+<meta property="og:site_name" content="Marcela’s Hackblog" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="So_Long" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Marcela Jimenez"},"description":"CTFs, hacking ético, programación y más.","headline":"So_Long","url":"http://localhost:4000/proyectos_42/so_long.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <a id="a-title" href="/">
+          <h1>Marcela's Hackblog</h1>
+        </a>
+        <h2>CTFs, hacking ético, programación y más.</h2>
+
+        <section id="downloads">
+          
+          <a href="" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <h1 id="-so_long">🐉 so_long</h1>
+
+<p><strong>so_long</strong> es un pequeño videojuego 2D desarrollado en C con la librería gráfica <strong>MLX42</strong>. El protagonista es un <strong>dragón</strong> que debe moverse por un mapa, <strong>recolectar todos los fuegos 🔥</strong> y finalmente <strong>llegar a la puerta de salida 🚪</strong>, que solo se abrirá si todos los fuegos han sido recogidos.</p>
+
+<hr />
+
+<h2 id="-objetivo-del-juego">🎮 Objetivo del juego</h2>
+
+<ul>
+  <li>Controlar al <strong>dragón</strong> con las teclas <code class="language-plaintext highlighter-rouge">W</code>, <code class="language-plaintext highlighter-rouge">A</code>, <code class="language-plaintext highlighter-rouge">S</code>, <code class="language-plaintext highlighter-rouge">D</code>.</li>
+  <li>Comer todos los fuegos (<code class="language-plaintext highlighter-rouge">C</code>) para que se habilite la salida (<code class="language-plaintext highlighter-rouge">E</code>).</li>
+  <li>Al llegar a la salida con todos los fuegos recogidos, <strong>ganas la partida</strong>.</li>
+</ul>
+
+<hr />
+
+<h2 id="-estructura-del-mapa">🧩 Estructura del mapa</h2>
+
+<p>El mapa es un archivo <code class="language-plaintext highlighter-rouge">.ber</code> que contiene los siguientes caracteres:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Símbolo</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">1</code></td>
+      <td>Pared (obstáculo)</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">0</code></td>
+      <td>Suelo (camino libre)</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">P</code></td>
+      <td>Posición inicial del dragón</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">C</code></td>
+      <td>Fuego (coleccionable)</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">E</code></td>
+      <td>Puerta de salida</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="️-compilación-y-descarga">⚙️ Compilación y descarga</h2>
+
+<p>Este proyecto requiere <strong>MLX42</strong>, <strong>libft</strong>, <strong>ft_printf</strong> y <strong>get_next_line</strong>. Asegúrate de tener todas las dependencias correctamente integradas en tu repositorio.</p>
+
+<p>Para compilar el proyecto, ejecuta:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>make
+</code></pre></div></div>
+
+<p>▶️ Ejecución
+Para iniciar el juego, usa:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./so_long maps/ejemplo.ber
+Reemplaza maps/ejemplo.ber con el nombre del mapa que desees jugar.
+</code></pre></div></div>
+
+<p>Este es el repositorio del proyecto para descargarlo:</p>
+
+<p><a href="https://github.com/MarcelaJI/so_long">So Long</a></p>
+
+<hr />
+
+<p>Autora 👩💻 
+Marcela Jimenez</p>
+
+<p>📛 Login: ingjimen</p>
+
+<p>💡 Notas
+El juego muestra mensajes en la terminal sobre los movimientos del dragón y el estado del juego.</p>
+
+<p>Si el mapa no es válido o falta algún elemento obligatorio (P, C, E), se mostrará un mensaje de error.</p>
+
+<hr />
+
+      </section>
+    </div>
+  </body>
+</html>

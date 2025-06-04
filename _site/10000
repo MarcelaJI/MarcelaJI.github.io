@@ -76,3 +76,7 @@
 : 1749030410:0;cd apuntes
 : 1749031014:0;ls
 : 1749031019:0;nvim index.md
+: 1749031032:0;git add .
+: 1749031046:0;git commit -m "Updating"
+: 1749031052:0;git push
+: 1749031778:0;cd proyectos_42

@@ -57,3 +57,10 @@
 : 1749028669:0;git commit -m "updating"
 : 1749028682:0;git push
 : 1749028695:0;git status
+: 1749028713:0;git add _site/
+: 1749028720:0;git commit -m "updating"
+: 1749028725:0;git push
+: 1749028743:0;git status
+: 1749028799:0;cd proyectos_personales
+: 1749028898:0;cd proyectos_42
+: 1749029065:0;cd articulos_tecnicos

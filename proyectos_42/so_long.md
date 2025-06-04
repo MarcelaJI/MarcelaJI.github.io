@@ -60,6 +60,9 @@ Marcela Jimenez
 
 📛 Login: ingjimen
 
+___
+
+
 💡 Notas
 El juego muestra mensajes en la terminal sobre los movimientos del dragón y el estado del juego.
 

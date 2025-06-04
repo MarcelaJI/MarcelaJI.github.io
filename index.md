@@ -7,11 +7,11 @@ title: Inicio
 
 Bienvenido a mi blog personal. Aquí iré publicando contenido sobre ciberseguridad y programación:
 
-- Writeups de máqinas (CTF, HackTheBox, TryHackMe, DockerLabs)
-- Apuntes de hacking ético, herramientas y pentesting
-- Proyectos personales y scripts útiles
-- Proyectos de 42 Madrid, donde estudio programación
-- Artículos técnicos y reflexiones del mundo tech
+- [Writeups de máqinas](writeups/)
+- [Apuntes de hacking y pentesting](apuntes/)
+- [Proyectos personales](proyectos_personales/)
+- [Proyectos de 42](proyectos_42/)
+- [Artículos técnicos](articulos_tecnicos/)
 
 ---
 

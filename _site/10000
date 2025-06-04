@@ -29,3 +29,21 @@
 : 1749026104:0;nvim _config.yml
 : 1749026113:0;nvim index.md
 : 1749026503:0;bundle exec jekyll serve
+: 1749026570:0;git add .
+: 1749026580:0;git commit -m "Adding changes"
+: 1749026584:0;git push
+: 1749026599:0;clear
+: 1749027337:0;ls
+: 1749027391:0;mkdir writeups apuntes proyectos_personales proyectos_42 articulos_tecnicos
+: 1749027412:0;bundle exec jekyll serve
+: 1749027444:0;nvim index.md
+: 1749027794:0;cd writeups
+: 1749028047:0;cd apuntes
+: 1749028217:0;cd writeups
+: 1749028286:0;ls
+: 1749028312:0;nvim index.md
+: 1749028334:0;cd apuntes
+: 1749028354:0;bundle exec jekyll serve
+: 1749028413:0;cd writeups
+: 1749028440:0;cd apuntes
+: 1749028518:0;ls

@@ -52,14 +52,6 @@ nmap --script=vuln
 
 - Para hacer un escaneo sigiloso con -sT, de Three-Wall Handshake, podemos hacer una captura con **tcpdump**, para luego ver que está pasando en el **wireshark** con la captura que hemos hecho y ver como está el proceso del Three-Wall Handshake. 
 
-Lo que hacemos es, antes de ejecutar **Nmap**, en una terminal aparte ejecutamos:
-
-```bash
-tcpdump -i enp0s3 -w Captura.cap -v
-```
-
-Que el parámetro -i es para poner la interface de red, y -w de write para que se escriba en Captura.cap y -v de verbose.
-
 Para poder ver la interfaz de la red podemos ejecutar varias opciones por ejemplo:
 
 ```bash
@@ -70,6 +62,14 @@ o
 ```bash
 ip addr show
 ```
+
+Lo que hacemos es, antes de ejecutar **Nmap**, en una terminal aparte ejecutamos:
+
+```bash
+tcpdump -i enp0s3 -w Captura.cap -v
+```
+
+Que el parámetro -i es para poner la interface de red, y -w de write para que se escriba en Captura.cap y -v de verbose.
 
 Cuando lo ejecutamos, ejecutamos también Nmap para que se capture el tráfico según el puerto que hayamos ejecutado para que se capture.
 Luego para abrir **wireshark** y ver como ha ido el -sT,  lo abrimos en segundo plano ejecutando:

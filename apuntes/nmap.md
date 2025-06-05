@@ -33,10 +33,15 @@ nmap -p- --open <IP>
 Estos son algunos de los parámetros más comunes para hacer escaneos con **nmap**:
 
 - Con el parámetro -v, le digo que me haga el escaneo en modo verbose, lo que significa es aumentar el nivel de mensajes detallado (-vvv para aumentar el efecto).
+
 - Con el parámetro -n, le digo que no me haga resolución DNS.
+
 - Con el parámetro -T, ajustamos la velocidad del escaneo.
+
 - Con el parámetro -Pn, para que dé por hecho que el host está activo.
+
 - Con el parámetro --min-rate 5000, Nmap establece la velocidad mínima de envío de paquetes por segundo durante un escaneo, es decir que le estoy diciendo a Nmap: "No envíes menos de 5000 paquetes por segundo durante el escaneo". En conclusión este parámetro nos ayuda cuando necesitamos escaneos rápidos en situaciones donde necesitamos velocidad y eficiencia.
+
 - Con el parámetro -sC se refiere al uso de scripts NSE predeterminados, este parámetro le dice a **Nmap**: "Ejecuta los scripts predeterminados del motor de scripts de Nmap(NSE: Nmap Scripting Engine).", así mismo con el parámetro **--script**, permite a Nmap ejecutar scripts del Nmap Scripting Engine (NSE). A diferencia de -sC (que ejecuta solo los scripts predeterminados), --script te da control total sobre qué scripts usar. Ejemplo:
 
 ```bash
@@ -54,6 +59,17 @@ tcpdump -i enp0s3 -w Captura.cap -v
 ```
 
 Que el parámetro -i es para poner la interface de red, y -w de write para que se escriba en Captura.cap y -v de verbose.
+
+Para poder ver la interfaz de la red podemos ejecutar varias opciones por ejemplo:
+
+```bash
+ifconfig
+```
+o
+
+```bash
+ip addr show
+```
 
 Cuando lo ejecutamos, ejecutamos también Nmap para que se capture el tráfico según el puerto que hayamos ejecutado para que se capture.
 Luego para abrir **wireshark** y ver como ha ido el -sT,  lo abrimos en segundo plano ejecutando:

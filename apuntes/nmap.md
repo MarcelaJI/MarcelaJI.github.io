@@ -37,7 +37,14 @@ Estos son algunos de los parámetros más comunes para hacer escaneos con **nmap
 - Con el parámetro -T, ajustamos la velocidad del escaneo.
 - Con el parámetro -Pn, para que dé por hecho que el host está activo.
 - Con el parámetro --min-rate 5000, Nmap establece la velocidad mínima de envío de paquetes por segundo durante un escaneo, Es decir que le estoy diciendo a Nmap: "No envíes menos de 5000 paquetes por segundo durante el escaneo". En conclusión este parámetro nos ayuda cuando necesitamos escaneos rápidos en situaciones donde necesitamos velocidad y eficiencia.
-- Con el parámetro -sC se refiere al uso de scripts NSE predeterminados, este parámetro le dice a **Nmap**: "Ejecuta los scripts predeterminados del motor de scripts de Nmap(NSE: Nmap Scripting Engine)."
+- Con el parámetro -sC se refiere al uso de scripts NSE predeterminados, este parámetro le dice a **Nmap**: "Ejecuta los scripts predeterminados del motor de scripts de Nmap(NSE: Nmap Scripting Engine).", así mismo con el parámetro --script, permite a Nmap ejecutar scripts del Nmap Scripting Engine (NSE). A diferencia de -sC (que ejecuta solo los scripts predeterminados), --script te da control total sobre qué scripts usar. Ejemplo:
+
+```bash
+nmap --script=default
+nmap --script=auth
+nmap --script=vuln
+```
+
 - Para hacer un escaneo sigiloso con -sT, de Three-Wall Handshake, podemos hacer una captura con **tcpdump**, para luego ver que está pasando en el **wireshark** con la captura que hemos hecho y ver como está el proceso del Three-Wall Handshake. 
 
 Lo que hacemos es, antes de ejecutar **Nmap**, en una terminal aparte ejecutamos:

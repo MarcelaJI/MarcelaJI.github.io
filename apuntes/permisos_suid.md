@@ -62,7 +62,9 @@ Y así obtendríamos un bash con permisos de root -> root shell.
 - ¿El binario permite escribir o leer archivos como root?
 - ¿El binario permite escapar a una shell interactiva?
 
-- Binarios peligrosos si están SUID
+- Binarios peligrosos si están SUID.
+
+
 Si alguno de estos binarios tiene SUID, casi siempre puedes escalar:
 
 /bin/bash → ejecutas bash como root.

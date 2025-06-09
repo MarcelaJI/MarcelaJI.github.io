@@ -88,7 +88,7 @@ Estos binarios son "escalables" si los vemos con SUID.
 - Recursos útiles
 👉 Hay una web que te dice cómo escalar con cada binario:
 
-https://gtfobins.github.io
+[gtfobins](https://gtfobins.github.io)
 
 En GTFObins buscas python, vim, tar, etc., y te dice: si tienes SUID en este binario, haz este comando para obtener root.
 

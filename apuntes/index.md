@@ -16,6 +16,7 @@ En esta sección encontrarás notas, herramientas y técnicas sobre hacking éti
 - [Subnetting](subnetting)
 - [NMAP](nmap)
 - [SQL Injection](sql_injection)
+- [Permisos SUID](permisos_suid)
 
 ---
 

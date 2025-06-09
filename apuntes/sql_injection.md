@@ -25,7 +25,7 @@ Asimismo, es necesario hacer una breve distinción de los diferentes tipos de ba
 - Bases de datos de grafos: Las bases de datos de grafos, como Neo4j, también pueden ser vulnerables a inyecciones SQL. En estas bases de datos, se utilizan consultas para acceder a los nodos y relaciones que se han almacenado en la base de datos.
 - Bases de datos de objetos: Las bases de datos de objetos, como db4o, también pueden ser vulnerables a inyecciones SQL. En estas bases de datos, se utilizan consultas para acceder a los objetos que se han almacenado en la base de datos.
 
-## Prevenir inyecciones SQL
+## Prevenir inyecciones SQL:
 
 - Uso de consultas preparadas (prepared statements).
 

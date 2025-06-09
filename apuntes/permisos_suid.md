@@ -85,7 +85,9 @@ Si alguno de estos binarios tiene SUID, casi siempre puedes escalar:
 
 Estos binarios son "escalables" si los vemos con SUID.
 
-- Recursos útiles
+- Recursos útiles:
+
+
 👉 Hay una web que te dice cómo escalar con cada binario:
 
 [gtfobins](https://gtfobins.github.io)

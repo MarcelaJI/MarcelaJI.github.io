@@ -9,7 +9,8 @@ En esta sección subiré los proyectos que realizo en el campus de programación
 
 ## Lista de proyectos:
 
-[So Long](so_long)
+- [So Long](so_long)
+- [Push_Swap](push_swap)
 
 ---
 

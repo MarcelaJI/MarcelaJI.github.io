@@ -21,17 +21,17 @@ Por otro lado, las herramientas activas para la enumeración de subdominios incl
 
 Las herramientas más comunes son:
 
-- Phonebook (Herramienta pasiva): https://phonebook.cz/
+- [Phonebook](https://phonebook.cz/)
 
-- Intelx (Herramienta pasiva): https://intelx.io/
+- [Intelx](https://intelx.io/)
 
-- CTFR (Herramienta pasiva): https://github.com/UnaPibaGeek/ctfr
+- [CTFR](https://github.com/UnaPibaGeek/ctfr)
 
-- Gobuster (Herramienta activa): https://github.com/OJ/gobuster
+- [Gobuster](https://github.com/OJ/gobuster)
 
-- Wfuzz (Herramienta activa): https://github.com/xmendez/wfuzz
+- [Wfuzz](https://github.com/xmendez/wfuzz)
 
-- Sublist3r (Herramienta pasiva): https://github.com/huntergregal/Sublist3r
+- [Sublist3r](https://github.com/huntergregal/Sublist3r)
 
 <div style="text-align:center; font-size: 0.9em; margint-top: 40px; color: #33ff33;">
     💻 Hecho con 💚 por <strong>Marcela</strong> - 2025

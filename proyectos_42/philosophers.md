@@ -72,15 +72,16 @@ Si un filósofo no come en time_to_die, muere ☠️
 Cuando todos comen number_of_times_each_philosopher_must_eat, el programa termina correctamente ✅
 
 🧵 Programación Concurrente
+
 Este proyecto hace uso de:
 
-pthread_mutex_t para gestionar acceso a los tenedores
+- pthread_mutex_t para gestionar acceso a los tenedores
 
-Un hilo por filósofo
+- Un hilo por filósofo
 
-Un hilo monitor que detecta muertes o finalización
+- Un hilo monitor que detecta muertes o finalización
 
-Colores e iconos se usan en la salida para hacer más visual la simulación.
+- Colores e iconos se usan en la salida para hacer más visual la simulación.
 
 💻 Cómo Clonarlo
 

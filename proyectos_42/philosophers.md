@@ -91,7 +91,10 @@ cd philosophers
 cd philo
 make
 ```
+---
+
 ✨ Extra
+
 Este proyecto incluye:
 
 🧠 Lógica modular
@@ -99,6 +102,9 @@ Este proyecto incluye:
 🎨 Salida coloreada y emojis para mayor claridad
 
 🧼 Limpieza automática de recursos
+
+---
+
 
 👩💻Autora 
 login 42:

@@ -19,7 +19,7 @@ En esta sección encontrarás notas, herramientas y técnicas sobre hacking éti
 - [Uso de Scripts en NMAP](scripts_en_nmap)
 - [SQL Injection](sql_injection)
 - [Permisos SUID](permisos_suid)
-
+- [Enumeración de subdominios](enumeracion_de_subdominios)
 
 ---
 

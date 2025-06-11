@@ -15,8 +15,10 @@ En esta sección encontrarás notas, herramientas y técnicas sobre hacking éti
 - [Modelo OSI](modelo_osi)
 - [Subnetting](subnetting)
 - [NMAP](nmap)
+- [Evasión de Firewalls](evasion_de_firewalls)
 - [SQL Injection](sql_injection)
 - [Permisos SUID](permisos_suid)
+
 
 ---
 

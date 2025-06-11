@@ -20,7 +20,7 @@ Este proyecto es una simulación del famoso problema de los filósofos comensale
 
 ## 🚀 Instalación y Uso
 
-Este es el repositorio del proyecto para descargarlo::
+Este es el repositorio del proyecto para descargarlo:
 
 [Philosophers](https://github.com/MarcelaJI/philosophers)
 
@@ -108,3 +108,9 @@ login 42:
 📜 Licencia
 
 Este proyecto es parte del currículo académico de 42 Madrid y se rige por sus normas de propiedad intelectual.
+
+---
+
+<div style="text-align:center; font-size: 0.9em; margint-top: 40px; color: #33ff33;">
+    💻 Hecho con 💚 por <strong>Marcela</strong> - 2025
+</div>

@@ -16,6 +16,7 @@ En esta sección encontrarás notas, herramientas y técnicas sobre hacking éti
 - [Subnetting](subnetting)
 - [NMAP](nmap)
 - [Evasión de Firewalls](evasion_de_firewalls)
+- [Uso de Scripts en NMAP](scripts_en_nmap)
 - [SQL Injection](sql_injection)
 - [Permisos SUID](permisos_suid)
 

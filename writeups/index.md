@@ -9,7 +9,7 @@ Aquí tienes la lista de las máquinas que he resuelto.
 
 Haz clic para ver cada writeup directamente en GitHub:
 
-**DockerLabs**:
+## **DockerLabs**:
 
 - [BorazuwarahCTF](https://github.com/MarcelaJI/DockerLabs/blob/main/BorazuwarahCTF/README.md)
 
@@ -26,6 +26,8 @@ Haz clic para ver cada writeup directamente en GitHub:
 - [Trust](https://github.com/MarcelaJI/DockerLabs/blob/main/Trust/README.md)
 
 - [Vacaciones](https://github.com/MarcelaJI/DockerLabs/blob/main/Vacaciones/README.md)
+
+- [Obsession](https://github.com/MarcelaJI/DockerLabs/blob/main/Obsession/README.md)
 
 ---
 

@@ -20,6 +20,7 @@ En esta sección encontrarás notas, herramientas y técnicas sobre hacking éti
 - [SQL Injection](sql_injection)
 - [Permisos SUID](permisos_suid)
 - [Enumeración de subdominios](enumeracion_de_subdominios)
+- [Local File Inclusion(LFI)](local_file_inclusion)
 
 ---
 

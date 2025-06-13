@@ -43,13 +43,13 @@ Este comando abre la consola interactiva de Metasploit, desde donde harás la ma
 Aquí te dejo una lista con comandos clave y para qué sirven:
 
 Comando	Descripción
-- search <palabra>:	Buscar módulos por nombre o vulnerabilidad.
-- use <módulo>: Seleccionar un módulo para usar (exploit, payload, etc.)
+- search [palabra]:	Buscar módulos por nombre o vulnerabilidad.
+- use [módulo]: Seleccionar un módulo para usar (exploit, payload, etc.)
 - show options:	Mostrar las opciones configurables del módulo actual.
-- set <opción> <valor>: Configurar una opción del módulo (ejemplo: RHOSTS, LHOST).
+- set [**opción**] [**valor**]: Configurar una opción del módulo (ejemplo: RHOSTS, LHOST).
 - show payloads: Listar payloads compatibles con el exploit seleccionado.
-- set payload <payload>:	Seleccionar el payload que se va a usar.
+- set payload [payload]:	Seleccionar el payload que se va a usar.
 - exploit o run: Ejecutar el exploit con la configuración actual.
 - sessions:	Mostrar sesiones activas (conexiones abiertas con víctimas).
-- sessions -i <id>: Interactuar con una sesión activa.
+- sessions -i [id]: Interactuar con una sesión activa.
 - exit:	Salir de msfconsole.

@@ -53,3 +53,12 @@ Comando	Descripción
 - sessions:	Mostrar sesiones activas (conexiones abiertas con víctimas).
 - sessions -i [id]: Interactuar con una sesión activa.
 - exit:	Salir de msfconsole.
+
+
+---
+
+
+
+<div style="text-align:center; font-size: 0.9em; margint-top: 40px; color: #33ff33;">
+    💻 Hecho con 💚 por <strong>Marcela</strong> - 2025
+</div>

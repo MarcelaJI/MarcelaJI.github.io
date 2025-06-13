@@ -21,6 +21,7 @@ En esta sección encontrarás notas, herramientas y técnicas sobre hacking éti
 - [Permisos SUID](permisos_suid)
 - [Enumeración de subdominios](enumeracion_de_subdominios)
 - [Local File Inclusion(LFI)](local_file_inclusion)
+- [Metasploit](metasploit)
 
 ---
 

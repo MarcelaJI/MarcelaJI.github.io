@@ -33,6 +33,7 @@ Haz clic para ver cada writeup directamente en GitHub:
 
 ## The Hackers Labs:
 
+[Fruits](https://github.com/MarcelaJI/The-Hackers-Labs/blob/main/Fruits/README.md)
 
 ---
 

@@ -21,7 +21,7 @@ Aquí encontrarás desde técnicas ofensivas hasta reflexiones del mundo hacker�
 
 ---
 
-Si quieres contactar con mi trabajo:
+Puedes contactar conmigo a través de mis redes sociales:
 
 [Email](mailto:ingridjimenez113@gmail.com)
 [Github](https://github.com/MarcelaJi)

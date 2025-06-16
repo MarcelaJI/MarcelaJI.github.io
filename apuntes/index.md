@@ -22,6 +22,7 @@ En esta sección encontrarás notas, herramientas y técnicas sobre hacking éti
 - [Enumeración de subdominios](enumeracion_de_subdominios)
 - [Local File Inclusion(LFI)](local_file_inclusion)
 - [Metasploit](metasploit)
+- [Cross-Site Scripting XSS](cross-site_scripting)
 
 ---
 

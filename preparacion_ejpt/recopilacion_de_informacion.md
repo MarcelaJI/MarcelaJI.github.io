@@ -306,6 +306,9 @@ nmap -sn -PR 192.168.1.0/24
 
 - -PR usa ARP requests (ideal para redes locales).
 
+
+---
+
 <div style="text-align:center; font-size: 0.9em; margint-top: 40px; color: #33ff33;">
     💻 Hecho con 💚 por <strong>Marcela</strong> - 2025
 </div>

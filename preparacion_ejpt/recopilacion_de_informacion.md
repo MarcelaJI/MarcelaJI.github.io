@@ -197,3 +197,26 @@ Herramienta para **Google Hacking Database (GHDB)**:
     - Backdoors
     
 
+---
+
+### Recolección de correo electrónico con theHarvester
+
+**theHarvester** es una herramienta utilizada en pruebas de penetración (pentesting) para **recopilar información pública** sobre un objetivo, y uno de los datos que puede recolectar son los correos electrónicos relacionados con un dominio o empresa.
+
+En concreto, la recolección de correos electrónicos con theHarvester sirve para:
+
+- **Obtener direcciones de correo electrónico relacionadas con el objetivo** (por ejemplo, empleados de una empresa).
+    
+- **Facilitar el reconocimiento o footprinting**, que es la fase inicial en un pentest, donde se busca toda la información posible sobre el objetivo.
+    
+- **Encontrar posibles puntos de entrada** para ataques como phishing, spear phishing o ingeniería social.
+    
+- Ayuda a crear un **mapa de personas y posibles cuentas** para futuros ataques o pruebas.
+
+
+Ejemplo de uso:
+
+```bah
+theHarvester -d ejemplo.com -b bing,crtsh,duckduckgo
+```
+

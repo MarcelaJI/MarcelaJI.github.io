@@ -302,3 +302,6 @@ Comando básico para descubrir hosts activos:
 nmap -sn -PR 192.168.1.0/24
 ````
 
+- -sn (antes -sP) significa ping scan, solo detecta si el host está vivo, no hace escaneo de puertos.
+
+- -PR usa ARP requests (ideal para redes locales).

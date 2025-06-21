@@ -220,3 +220,85 @@ Ejemplo de uso:
 theHarvester -d ejemplo.com -b bing,crtsh,duckduckgo
 ```
 
+- `-d ejemplo.com` indica el dominio objetivo.
+    
+- -b bing,crtsh,duckduckgo especifica la fuente (Google, Bing, LinkedIn, etc.) para la búsqueda.
+
+---
+
+## Bases de datos de contraseñas filtradas
+
+Cuando haces **footprinting** o reconocimiento de un objetivo, es importante buscar **información pública** o filtrada que pueda ayudarte a conocer vulnerabilidades o datos comprometidos, y una fuente valiosa son las **bases de datos de contraseñas filtradas**.
+
+### ¿Qué son las bases de datos de contraseñas filtradas?
+
+- Son conjuntos de datos donde usuarios y sus contraseñas (o hashes) han sido expuestos en brechas de seguridad o hackeos.
+    
+- Pueden contener combinaciones de usuarios, emails y contraseñas que fueron filtradas y publicadas en internet.
+    
+- Ejemplos famosos incluyen brechas como **LinkedIn, Adobe, Yahoo**, entre otras.
+    
+
+---
+
+### ¿Por qué es útil para un pentester?
+
+- Permite verificar si las cuentas del objetivo ya están comprometidas.
+    
+- Se puede identificar si el objetivo usa contraseñas débiles o repetidas.
+    
+- Facilita ataques de **credential stuffing** o fuerza bruta con contraseñas reales.
+    
+- Da contexto para planificar vectores de ataque.
+    
+
+---
+
+### Fuentes y herramientas para buscar bases de datos de contraseñas filtradas
+
+#### 1. **Have I Been Pwned (HIBP)**
+
+- Sitio web y API que te permite consultar si un correo o dominio ha sido comprometido.
+    
+- Web: [https://haveibeenpwned.com/](https://haveibeenpwned.com/)
+    
+- También tiene una base con millones de contraseñas filtradas para buscar por hash o texto.
+    
+
+#### 2. **Dehashed**
+
+- Motor de búsqueda de datos filtrados, incluyendo emails, contraseñas, IPs.
+    
+- Se puede usar como fuente en theHarvester (`-b dehashed`).
+    
+
+#### 3. **LeakCheck**
+
+- Otro servicio para verificar si tus credenciales han sido filtradas.
+    
+
+#### 4. **Bases de datos públicas y dumps**
+
+- Algunos dumps están disponibles en sitios como RaidForums, GitHub (con cuidado legal), etc.
+    
+
+---
+
+### Cómo usar algunas herramientas para footprinting de contraseñas filtradas
+
+#### Usando theHarvester con `dehashed`:
+
+```bash
+theHarvester -d ejemplo.com -b dehashed
+```
+
+---
+
+## Cómo hacer descubrimiento de hosts con nmap
+
+Comando básico para descubrir hosts activos:
+
+```bash
+nmap -sn -PR 192.168.1.0/24
+````
+

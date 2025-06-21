@@ -47,3 +47,33 @@ Ejemplo de uso:
 ```bash
 whois ejemplo.com
 ```
+
+---
+
+- [**Netcraft**](https://www.netcraft.com/) es una herramienta web que proporciona **información técnica detallada** sobre sitios web. Te permite saber cosas como:
+
+	-  **Sistema operativo** del servidor web
+	-  Proveedor de hosting
+	-  Certificados SSL
+	-  **Tecnología de backend** (Apache, Nginx, etc.)
+	-  Subdominios
+	-  Sitios alojados en la misma IP
+	-  **Historial de tecnologías** usadas
+
+🧭 ¿Para qué sirve hacer "huella" con Netcraft?
+
+La **huella de un sitio web** es recopilar toda la información **visible y técnica** posible **antes de atacar**, para entender mejor su infraestructura.
+
+Ejemplo:  
+Si sabes que un servidor usa **Apache 2.4.29 en Ubuntu 18.04**, ya puedes buscar **vulnerabilidades conocidas (CVEs)** para esa versión.
+
+---
+
+- **whatweb**, detecta tecnologías web
+
+Ejemplo de uso:
+
+```bash
+whatweb ejemplo.com
+```
+

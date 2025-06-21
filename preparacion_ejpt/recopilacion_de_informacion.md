@@ -154,5 +154,46 @@ sublist3r -d ejemplo.com
 
 ---
 
+## 🔍 Google Dorks
 
+¿Qué son los **Google Dorks**?
+
+Son **búsquedas avanzadas** en Google que permiten **encontrar información sensible o expuesta públicamente** mediante el uso de operadores especiales.
+
+🧠 Esta técnica también se conoce como **Google Hacking**.
+
+## 📌 ¿Para qué se usan los Google Dorks?
+
+- Encontrar archivos sensibles (PDFs, DOCs, logs)
+- Detectar paneles de administración
+- Ver cámaras, logs, backups o contraseñas expuestas
+- Localizar subdominios
+- Descubrir versiones vulnerables de CMS (WordPress, Joomla…)
+
+Ejemplos prácticos de Google Dorks
+
+| Dork                             | ¿Qué hace?                                       |
+| -------------------------------- | ------------------------------------------------ |
+| `site:tinder.com`                | Muestra solo resultados del dominio `tinder.com` |
+| `site:tinder.com inurl:admin`    | Busca URLs que contengan `admin`                 |
+| `site:tinder.com intitle:login`  | Busca páginas con “login” en el título           |
+| `site:tinder.com filetype:pdf`   | Muestra PDFs públicos                            |
+| `intitle:index.of`               | Indexaciones públicas de carpetas del servidor   |
+| `filetype:log password`          | Busca archivos .log con contraseñas              |
+| `inurl:/phpinfo.php`             | Busca archivos `phpinfo.php`                     |
+| `"Powered by WordPress"` version | Busca sitios WordPress con info de versión       |
+| `site:*.tinder.com`              | Encuentra subdominios indexados por Google       |
+
+
+Herramienta para **Google Hacking Database (GHDB)**:
+
+- Página oficial: https://www.exploit-db.com/google-hacking-database
+
+- Ahí veremos **cientos de dorks** ya listos para:
+    - Archivos sensibles
+    - Logs
+    - Configuraciones
+    - Bases de datos expuestas
+    - Backdoors
+    
 

@@ -96,7 +96,7 @@ SMTP usa el puerto 25 por defecto. También se puede configurar para ejecutarse 
 Podemos utilizar los módulos auxiliares para enumerar la versión de SMTP así como las cuentas del usuario en el sistema de destino.
 
 
-
+----
 
 
 

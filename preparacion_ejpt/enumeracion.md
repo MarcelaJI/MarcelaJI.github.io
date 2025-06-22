@@ -54,6 +54,47 @@ SAMBA es la implemnetación de SMB para Linux que los sistemas Windows accedan a
 
 ---
 
+### Enumeración de servicios web
+
+Un servidor web es un software que se utiliza para servir datos de sitios web en la web.
+
+Los servidores web utilizan HTTP(Protocolo de tranferencia de hipertexto) para facilitar la comunicación entre los clientes y el servidor web.
+
+HTTP es un protocolo de capa de aplicación que utiliza el puerto TCP 80 para la comunicación.
+
+Ejemplos de servicios web populares: Apache, Nginxn y Microsoft IIS.
+
+---
+
+
+### Enumeración de MYSQL
+
+MYSQL e sun sistema de gestión de bases de datos relacionales de código abierto basado en SQL(Lenguaje de consulta estructurado).
+
+Se utiliza generalmente para almacenar registros, datos de clientes y también para almacenar datos de aplicaciones web.
+
+MYSQL utiliza el puerto 3306 de forma predeterminada, sin embargo, como cualquier servicio, puede ser alojado en cualquier puerto abierto.
+
+---
+
+### Enumeración SSH
+
+SSH (Secure Shell) es ¡un protocolo de administración remota que ofrece cifrado y es el sucesor de telnet.
+
+Normalmente se utiliza para acceso remoto a servidores y sistemas.
+
+SSH usa el puerto 22 por defecto, sin embargo, al igual que otros servicios, puede ser configurado para utilizar cualquier otro puerto abierto.
+
+---
+
+### Enumeración SMTP
+
+SMTP (Simple Mail Transfer Protocol) es un protocolo de comunicación que se utiliza para la transmisión de correo electrónico.
+
+SMTP usa el puerto 25 por defecto. También se puede configurar para ejecutarse en el puerto TCP 465 y 587.
+
+Podemos utilizar los módulos auxiliares para enumerar la versión de SMTP así como las cuentas del usuario en el sistema de destino.
+
 
 
 

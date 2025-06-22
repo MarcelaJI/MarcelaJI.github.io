@@ -30,6 +30,31 @@ Nmap es un escáner de red gratuito y de código abierto que se puede utilizar p
 
 También se puede utilizar para enumerar los servicios que se ejecutan en puertos abiertos, así como el sistema operativo que se ejecuta en el sistema destino.
 
+---
+
+### Enumeración FTP
+
+TTP (File tranfer Protocol) es un protocolo que utiliza el puerto 21, y se utiliza para facilitar el intercambio de archivos entre un servidor y un cliente/clientes.
+
+También se utiliza frecuentemente como medio para tranferir archivos hacia y desde el directorio de un servidor web.
+
+Podemos utilizar múltiples módulos auxiliares para enumerar información así como realizar ataques de fuerza bruta contra objetivos que ejecutan un servidor FTP.
+
+La autenticación FTP utiliza una combinación de nombre de usuario y contraseña, sin embargo, en algunos casos se puede iniciar sesión de forma anónima en un servidor FTP configurado incorrectamente.
+
+---
+
+### Enumeración de SMB
+
+SMB (Server Message Block) es un protocolo de intercambio de archivos de red que se utiliza para faciltar el intercambio de archivos y periféricos entre computadoras en una red local (LAN).
+
+SMB usa el puerto 445 (TCP). Sin embargo, originalmente, SMB se ejecutaba sobre NetBIOS usando el puerto 139.
+
+SAMBA es la implemnetación de SMB para Linux que los sistemas Windows accedan a recursos compartidos y dispositivos de Linux.
+
+---
+
+
 
 
 

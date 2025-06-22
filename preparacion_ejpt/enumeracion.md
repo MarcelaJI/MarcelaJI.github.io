@@ -17,6 +17,10 @@ Al igual que la fase de escaneo, la enumeración implica conexiones activas a lo
 
 hay muchos protocolos en sistemas en red que un atacante puede atacar si han sido mal configurados o se han dejado habilitados. 
 
+## Metodología de pruebas de penetración
+
+![metodologia](../assets/img/metologia_pruebas.png)
+
 
 
 

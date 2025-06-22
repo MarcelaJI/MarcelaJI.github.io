@@ -21,6 +21,15 @@ hay muchos protocolos en sistemas en red que un atacante puede atacar si han sid
 
 ![metodologia](../assets/img/metologia_pruebas.png)
 
+---
+
+## Escaneo y enumeración de puertos con NMAP
+
+
+Nmap es un escáner de red gratuito y de código abierto que se puede utilizar para descubrir hosts en una red, así como para escanear objetivos en busca de puertos abiertos.
+
+
+
 
 
 

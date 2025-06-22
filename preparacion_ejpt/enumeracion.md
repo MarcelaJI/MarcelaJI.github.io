@@ -28,6 +28,8 @@ hay muchos protocolos en sistemas en red que un atacante puede atacar si han sid
 
 Nmap es un escáner de red gratuito y de código abierto que se puede utilizar para descubrir hosts en una red, así como para escanear objetivos en busca de puertos abiertos.
 
+También se puede utilizar para enumerar los servicios que se ejecutan en puertos abiertos, así como el sistema operativo que se ejecuta en el sistema destino.
+
 
 
 

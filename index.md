@@ -14,6 +14,7 @@ Aquí encontrarás desde técnicas ofensivas hasta reflexiones del mundo hacker�
 ---
 
 - [Writeups de máquinas](writeups/)
+- [Pentesting basics](pentesting_basics/)
 - [Apuntes de hacking y pentesting](apuntes/)
 - [Proyectos personales](proyectos_personales/)
 - [Proyectos de 42](proyectos_42/)

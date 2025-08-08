@@ -7,6 +7,7 @@ title: Preparación EJPTv2
 
 - [Descubrimiento de Hosts](descubrimiento_de_hosts)
 - [Puerto 21 - FTP](puerto_21)
+- [Puerto 22 - SSH](puerto_22)
 
 ---
 

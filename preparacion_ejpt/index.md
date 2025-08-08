@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Proyectos 42 Madrid
+title: Preparación EJPTV2
 ---
 
-# Estos son mis apuntes para la preparación del eJPT:
+# Estos son mis apuntes para la preparación del eJPTV2:
 
-- [Recopilación de Información](recopilacion_de_informacion)
-- [Enumeración](enumeracion)
+- [Descubrimiento de Hosts](descubrimiento_de_hosts)
+
 
 ---
 

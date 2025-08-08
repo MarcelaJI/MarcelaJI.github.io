@@ -6,7 +6,7 @@ title: Preparación EJPTv2
 # Estos son mis apuntes para la preparación del eJPTv2:
 
 - [Descubrimiento de Hosts](descubrimiento_de_hosts)
-
+- [Puerto 21 - FTP](puerto_21)
 
 ---
 

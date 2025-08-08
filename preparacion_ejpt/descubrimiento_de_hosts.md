@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Preparación EJPTV2
+title: Preparación EJPTv2
 ---
 
 # Descubrimiento de Hosts 🔍🖥️

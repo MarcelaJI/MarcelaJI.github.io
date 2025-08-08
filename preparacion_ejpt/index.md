@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Preparación EJPTV2
+title: Preparación EJPTv2
 ---
 
-# Estos son mis apuntes para la preparación del eJPTV2:
+# Estos son mis apuntes para la preparación del eJPTv2:
 
 - [Descubrimiento de Hosts](descubrimiento_de_hosts)
 

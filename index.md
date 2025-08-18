@@ -19,7 +19,7 @@ Aquí encontrarás desde técnicas ofensivas hasta reflexiones del mundo hacker�
 - [Proyectos personales](proyectos_personales/)
 - [Proyectos de 42](proyectos_42/)
 - [Artículos técnicos](articulos_tecnicos/)
-- [Apuntes eJPT](preparacion_ejpt/)
+- [Apuntes eJPTv2](preparacion_ejpt/)
 
 ---
 

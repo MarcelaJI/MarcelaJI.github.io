@@ -12,7 +12,7 @@ title: Preparación EJPTv2
 - [Puerto 80/443 - HTTP-HTTPS](puerto_80_443)
 - [Puertos 139/445 - SMB](puerto_139_445)
 - [Puerto 1521 - Oracle Database](puerto_1521)
-
+- [Puerto 3306 - MySQL & SqlMap](puerto_3306)
 ---
 
 <div style="text-align:center; font-size: 0.9em; margint-top: 40px; color: #33ff33;">

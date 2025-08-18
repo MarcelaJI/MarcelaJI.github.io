@@ -47,3 +47,79 @@ nmap -p25 <ip_victima> --script smtp-open-relay # Prueba si el servidor es un re
 
 ## 📌 Ejemplo de uso con diccionario de usuarios:
 
+```bash
+smtp-user-enum -M VRFY -U <diccionario.txt> -t <ip_victima>
+```
+
+## 📌 Enumeración Manual
+
+Conexión básica al servidor SMTP:
+
+```bash
+telnet <ip_victima> 25 # Conexión manual al servidor SMTP
+nc -vn <ip_victima> 25 # Uso de Netcat para verificar conexión
+```
+
+## 📌 Usos:
+
+- Verificar si el puerto 25 está abierto.
+- Probar comandos SMTP manualmente (EHLO, MAIL FROM, RCPT TO...).
+- Identificar la versión del servidor SMTP.
+
+---
+
+## 🛠️ Usando Metasploit para SMTP
+
+### 📌 Escaneo de versión SMTP
+
+```bash
+msfconsole -q # Iniciar Metasploit en modo silencioso
+use auxiliary/scanner/smtp/smtp_version
+set RHOSTS <ip_victima>
+exploit
+```
+
+### 📌 Enumeración de usuarios SMTP
+
+```bash
+use auxiliary/scanner/smtp/smtp_enum
+set RHOSTS <ip_victima>
+set USER_FILE /usr/share/wordlists/metasploit/unix_users.txt # Diccionario recomendado
+exploit
+```
+
+### 📌 Comandos SMTP útiles para pruebas
+
+```bash
+HELO example.com
+EHLO example.com
+VRFY usuario
+EXPN usuario
+RCPT TO: <usuario@dominio>
+MAIL FROM: <remitente@dominio>
+```
+
+### 📌 Verificación de Relay Abierto
+
+Para comprobar si un servidor SMTP permite el reenvío de correos sin autenticación (open relay), se pueden ejecutar los siguientes comandos:
+
+```bash
+telnet <ip_victima> 25
+HELO test
+MAIL FROM: <attacker@example.com>
+RCPT TO: <victim@example.com>
+DATA
+Subject: Test
+Test message
+.
+QUIT
+```
+
+Si el servidor acepta y entrega el correo sin restricciones, significa que está configurado como relay abierto, lo cual es una grave vulnerabilidad de seguridad.
+
+---
+
+
+<div style="text-align:center; font-size: 0.9em; margint-top: 40px; color: #33ff33;">
+    💻 Hecho con 💚 por <strong>Marcela</strong> - 2025
+</div>

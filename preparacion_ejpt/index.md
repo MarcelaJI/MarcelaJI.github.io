@@ -11,7 +11,7 @@ title: Preparación EJPTv2
 - [Puerto 25 - SMTP](puerto_25)
 - [Puerto 80/443 - HTTP-HTTPS](puerto_80_443)
 - [Puertos 139/445 - SMB](puerto_139_445)
-
+- [Puerto 1521 - Oracle Database](puerto_1521)
 
 ---
 

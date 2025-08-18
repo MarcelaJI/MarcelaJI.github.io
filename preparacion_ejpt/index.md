@@ -9,6 +9,7 @@ title: Preparación EJPTv2
 - [Puerto 21 - FTP](puerto_21)
 - [Puerto 22 - SSH](puerto_22)
 - [Puerto 25 - SMTP](puerto_25)
+- [Puerto 80/443 - HTTP-HTTPS](puerto_80_443)
 
 
 ---

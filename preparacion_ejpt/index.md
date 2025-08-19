@@ -15,8 +15,8 @@ title: Preparación EJPTv2
 - [Puerto 3306 - MySQL & SqlMap](puerto_3306)
 - [Puerto 3389 - RDP](puerto_3389)
 - [Wordpress](wordpress)
-
-
+- [Drupal](drupal)
+- [Joomla](joomla)
 ---
 
 <div style="text-align:center; font-size: 0.9em; margint-top: 40px; color: #33ff33;">

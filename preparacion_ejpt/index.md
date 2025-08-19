@@ -18,6 +18,7 @@ title: Preparación EJPTv2
 - [Drupal](drupal)
 - [Joomla](joomla)
 - [Brainfuck](brainfuck)
+- [Python Library Hijacking](python_hijacking)
 
 
 

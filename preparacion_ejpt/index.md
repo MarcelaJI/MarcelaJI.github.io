@@ -14,6 +14,7 @@ title: Preparación EJPTv2
 - [Puerto 1521 - Oracle Database](puerto_1521)
 - [Puerto 3306 - MySQL & SqlMap](puerto_3306)
 - [Puerto 3389 - RDP](puerto_3389)
+- [Wordpress](wordpress)
 
 
 ---

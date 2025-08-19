@@ -109,8 +109,8 @@ Si encontramos nombres de usuario potenciales, debemos almacenarlos en un archiv
 ## 🔑 Fuerza bruta en el panel de inicio de sesión de WordPress
 
 ```bash
-wpscan --url <url/wp-login.php> -U <username> -P /usr/share/wordlists/rockyou.txt # Uso de diccionario de contraseñas.
-wpscan --url <url/wp-login.php> --passwords <ruta_diccionario.txt> --usernames <ruta_usuarios.txt> # Ataque con múltiples usuarios.
+wpscan --url http://127.0.0.1:8080/ -U <user> -P /usr/share/wordlists/rockyou.txt # Uso de diccionario de contraseñas.
+wpscan --url http://127.0.0.1:8080/ --passwords <ruta_diccionario.txt> --usernames <ruta_usuarios.txt> # Ataque con múltiples usuarios.
 ```
 
 Ataque de fuerza bruta con Hydra

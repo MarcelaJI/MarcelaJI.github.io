@@ -75,6 +75,11 @@ run
 ## 🔑 Ataque de fuerza bruta con Metasploit
 
 ```bash
+search auxiliary/scanner/http/wordpress_login_enum
+```
+
+
+```bash
 set RHOSTS <url>
 set USERNAME <nombre_usuario> # Nombre de usuario objetivo.
 set PASS_FILE /usr/share/wordlists/rockyou.txt # Diccionario de contraseñas.

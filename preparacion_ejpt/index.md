@@ -19,7 +19,7 @@ title: Preparación EJPTv2
 - [Joomla](joomla)
 - [Brainfuck](brainfuck)
 - [Python Library Hijacking](python_hijacking)
-
+- [Gobuster](gobuster)
 
 
 

@@ -21,7 +21,7 @@ title: Preparación EJPTv2
 - [Python Library Hijacking](python_hijacking)
 - [Gobuster](gobuster)
 - [Ffuf](ffuf)
-
+- [Dirbuster](dirbuster)
 
 
 

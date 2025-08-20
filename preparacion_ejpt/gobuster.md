@@ -53,3 +53,41 @@ Para obtener mejores resultados, se recomienda utilizar wordlists optimizadas pa
 ### 📂 Subdominios
 
 - /usr/share/wordlists/SecLists/Discovery/DNS/subdomains-top1million-5000.txt
+
+## 🛠️ Ejemplos de Uso
+
+-  Modo dir (Enumeración de Directorios y Archivos)
+
+```bash
+gobuster dir -u <url> -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -t <hilos>
+```
+
+- Modo dns (Búsqueda de Subdominios)
+
+```bash
+gobuster dns -d <url> -w /usr/share/wordlists/SecLists/Discovery/DNS/subdomains-top1million-5000.txt
+```
+
+-  Modo vhost (Descubrimiento de Virtual Hosts)
+
+```bash
+gobuster vhost -u <url> -w /usr/share/wordlists/SecLists/Discovery/DNS/subdomains-top1million-5000.txt -t 20
+```
+
+---
+
+## 📌 Consejos para una Auditoría Eficiente
+
+✔️ Utiliza múltiples diccionarios para mejorar la tasa de detección.
+
+✔️ Excluye códigos de estado irrelevantes (-b 404,403,301) para limpiar los resultados.
+
+
+----
+
+
+<div style="text-align:center; font-size: 0.9em; margint-top: 40px; color: #33ff33;">
+    💻 Hecho con 💚 por <strong>Marcela</strong> - 2025
+</div>
+
+

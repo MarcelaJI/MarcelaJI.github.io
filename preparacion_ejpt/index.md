@@ -22,7 +22,7 @@ title: Preparación EJPTv2
 - [Gobuster](gobuster)
 - [Ffuf](ffuf)
 - [Dirbuster](dirbuster)
-
+- [John the Ripper](john)
 
 
 

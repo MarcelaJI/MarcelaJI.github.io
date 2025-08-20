@@ -20,7 +20,7 @@ title: Preparación EJPTv2
 - [Brainfuck](brainfuck)
 - [Python Library Hijacking](python_hijacking)
 - [Gobuster](gobuster)
-
+- [Ffuf](ffuf)
 
 
 

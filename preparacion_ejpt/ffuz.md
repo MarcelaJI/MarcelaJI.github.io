@@ -3,7 +3,7 @@ layout: default
 title: Preparación EJPTv2
 ---
 
-# Ffuz - Fuzzing Web 🛠️
+# Ffuf - Fuzzing Web 🛠️
 
 FFUF es una herramienta rápida y flexible para realizar pruebas de fuerza bruta (fuzzing) en aplicaciones web. Puedes usarla para buscar directorios, archivos, parámetros ocultos y más. Su velocidad y capacidad de personalización la convierten en una de las favoritas en el pentesting.
 

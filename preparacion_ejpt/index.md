@@ -6,6 +6,7 @@ title: Preparación EJPTv2
 # Estos son mis apuntes para la preparación del eJPTv2:
 
 - [Descubrimiento de Hosts](descubrimiento_de_hosts)
+- [Comandos de Red](comandos_de_red)
 - [Puerto 21 - FTP](puerto_21)
 - [Puerto 22 - SSH](puerto_22)
 - [Puerto 25 - SMTP](puerto_25)

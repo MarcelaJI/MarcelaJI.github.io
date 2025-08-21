@@ -28,7 +28,7 @@ title: Preparación EJPTv2
 - [Tomcat](tomcat)
 - [Jenkins](jenkins)
 - [Servidor Web Local en Python](servidor_python)
-
+- [ Tratamiento de la TTY](tty)
 
 
 

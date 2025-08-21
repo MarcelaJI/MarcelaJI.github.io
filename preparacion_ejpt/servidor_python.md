@@ -13,3 +13,10 @@ Esto nos será muy util para la transferencia de archivo entre nuestra máquina 
 python3 -m http.server 80 # Inicia un servidor HTTP básico
 ```
 
+---
+
+<div style="text-align:center; font-size: 0.9em; margint-top: 40px; color: #33ff33;">
+    💻 Hecho con 💚 por <strong>Marcela</strong> - 2025
+</div>
+
+

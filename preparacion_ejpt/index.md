@@ -27,7 +27,7 @@ title: Preparación EJPTv2
 - [Nikto](nikto)
 - [Tomcat](tomcat)
 - [Jenkins](jenkins)
-
+- [Servidor Web Local en Python](servidor_python)
 
 
 

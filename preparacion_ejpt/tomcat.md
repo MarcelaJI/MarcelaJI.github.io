@@ -82,4 +82,9 @@ set PASS_FILE /usr/share/wordlists/rockyou.txt
 run
 ```
 
+💡 Explicación:
+
+✔ tomcat_mgr_login → Escanea credenciales por defecto de Tomcat.
+
+✔ USER_FILE y PASS_FILE → Diccionarios de usuario y contraseña.
 

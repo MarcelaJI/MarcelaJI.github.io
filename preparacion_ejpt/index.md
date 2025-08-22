@@ -35,7 +35,7 @@ title: Preparación EJPTv2
 - [HostFixed](hostfixed)
 - [Pivoting con Metasploit](pivoting)
 - [Escalada de privilegios en Linux](linux)
-- [Escalada de privilegios en Windows]()
+- [Escalada de privilegios en Windows](windows)
 
 
 

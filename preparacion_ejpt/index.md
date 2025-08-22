@@ -31,7 +31,7 @@ title: Preparación EJPTv2
 - [ Tratamiento de la TTY](tty)
 - [WinRM](winrm)
 - [Microsoft IIS](microsoftiis)
-
+- [Windows - Post-Explotación](windows_post)
 
 
 

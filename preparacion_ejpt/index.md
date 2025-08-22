@@ -29,6 +29,12 @@ title: Preparación EJPTv2
 - [Jenkins](jenkins)
 - [Servidor Web Local en Python](servidor_python)
 - [ Tratamiento de la TTY](tty)
+- [WinRM](winrm)
+
+
+
+
+
 
 
 

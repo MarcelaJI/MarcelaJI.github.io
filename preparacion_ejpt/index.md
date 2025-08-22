@@ -33,7 +33,7 @@ title: Preparación EJPTv2
 - [Microsoft IIS](microsoftiis)
 - [Windows - Post-Explotación](windows_post)
 - [HostFixed](hostfixed)
-
+- [Pivoting con Metasploit](pivoting)
 
 
 

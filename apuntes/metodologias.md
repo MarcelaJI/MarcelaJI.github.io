@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Pentesting Basics
+title: Apuntes
 ---
+
 
 # Metodologías de pruebas de penetración
 

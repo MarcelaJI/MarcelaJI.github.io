@@ -32,7 +32,7 @@ title: Preparación EJPTv2
 - [WinRM](winrm)
 - [Microsoft IIS](microsoftiis)
 - [Windows - Post-Explotación](windows_post)
-
+- [HostFixed](hostfixed)
 
 
 

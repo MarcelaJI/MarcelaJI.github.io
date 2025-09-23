@@ -3,7 +3,7 @@ layout: default
 title: HTB CBBH notes
 ---
 
-## CBBH Notes
+## CBBH Notes 📚
 
 Study notes and hands-on write-ups created while preparing for the
 **Hack The Box — Certified Bug Bounty Hunter (CBBH)** certification.

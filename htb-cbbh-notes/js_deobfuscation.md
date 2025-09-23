@@ -47,6 +47,21 @@ Obfuscation makes code hard to read but still executable. It’s widely used in 
 
 ---
 
+### Spot & decode common encodings
+
+- **Base64** — alphanumerics plus +/ and padding =.
+    - Encode: ```echo text | base64```
+    - Decode: ``` echo text | base64 -d```
+- **Hex** — hex digits 0-9a-f.
+    - Encode: ```echo text | xxd -p```
+    - Decode: ```echo HEX | xxd -p -r```
+- **Caesar / ROT13** — simple letter shifts; decode with tr.
+    - ```echo text | tr 'A-Za-z' 'N-ZA-Mn-za-m'```
+
+Tip: automated tools (e.g., cipher identifier pages) can help detect encoding types.
+
+
+
 
 
 

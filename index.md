@@ -5,28 +5,31 @@ title: Inicio
 
 <img src="assets/img/mar.jpeg" alt="foto de Marcela" style="width: 180px; border-radius: 100px; display: block; margin: 0 auto 20px;" />
 
-# 👋 ¡Hola, soy Marcela!
+👋 Hi, I’m Marcela!
 
-Bienvenido/a a mi blog personal
+Welcome to my personal corner on the web.
 
-Soy una chica apasionada por el red team, la ciberseguridad ofensiva y el hacking ético. Me gusta desmontar sistemas para entender cómo funcionan, encontrar vulnerabilidades y, sobre todo, aprender compartiendo.
+I’m a cybersecurity enthusiast with a passion for red teaming, offensive security, and ethical hacking. I love dissecting systems to understand how they work, uncovering vulnerabilities, and sharing what I learn with the community.
 
-Actualmente estudio programación en 42 Madrid, donde cada día es un reto (y sí… el café sigue siendo mi framework más estable ☕).
+I’m currently studying programming at 42 Madrid, where every day brings new challenges (and yes… coffee is still my most reliable framework ☕).
 
-Aquí encontrarás:
+I hold the eJPTv2 certification and I’m actively preparing for the CBBH Bug Bounty program, constantly honing my offensive security skills.
 
-- Técnicas ofensivas y metodologías del mundo red team.
+Here, you’ll find:
 
-- Reflexiones técnicas sobre ciberseguridad.
+- Offensive techniques and red team methodologies
 
-- Algún que otro apunte personal porque… el lado humano también cuenta.
+- Technical insights and cybersecurity reflections
 
+- Occasional personal notes, because the human side of tech matters too
 
 
 
 
 ---
 
+
+## Explore my work:
 
 - [Apuntes de hacking y pentesting](apuntes/)
 - [Proyectos de 42](proyectos_42/)
@@ -44,7 +47,7 @@ Aquí encontrarás:
 
 ---
 
-Puedes contactar conmigo a través de mis redes sociales:
+Connect with me:
 
 [Email](mailto:ingridjimenez113@gmail.com)
 [Github](https://github.com/MarcelaJi)
@@ -52,7 +55,7 @@ Puedes contactar conmigo a través de mis redes sociales:
 
 ---
 
-Gracias por visitar mi blog!
+Thank you for stopping by!
 
 <div style="text-align:center; font-size: 0.9em; margint-top: 40px; color: #33ff33;">
     💻 Hecho con 💚 por <strong>Marcela</strong> - 2025

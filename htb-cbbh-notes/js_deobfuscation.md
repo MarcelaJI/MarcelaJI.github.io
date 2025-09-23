@@ -60,11 +60,97 @@ Obfuscation makes code hard to read but still executable. It’s widely used in 
 
 Tip: automated tools (e.g., cipher identifier pages) can help detect encoding types.
 
+---
+
+### Deobfuscation workflow (practical)
 
 
+1. Beautify / Pretty-print
+
+    - Use browser DevTools (Pretty Print / {}), Prettier, Beautifier to restore newlines and formatting.
+
+2. Automated unpackers
+
+    - Run tools like UnPacker / JSNice / other online unpackers to remove common packer layers.
+
+3. Inspect runtime output instead of executing
+
+    - Replace eval with console.log or otherwise print the unpacked return value to examine source safely.
+
+4. Manual reverse engineering
+
+    - When custom obfuscators are used, read and trace the unpacker, decode embedded strings, and understand the reassembly logic. This may require stepping through code in DevTools.
+
+5. Reproduce functionality
+
+    - Replicate important client actions with curl or other HTTP tools (e.g., POST to /serial.php) to confirm behavior without running obfuscated client-side code.
+
+Quick curl examples
+
+#### GET
+```bash
+curl http://SERVER_IP:PORT/
+```
 
 
+#### POST (no data)
 
+```
+curl -s http://SERVER_IP:PORT/ -X POST
+```
+
+
+#### POST (with data)
+
+```
+curl -s http://SERVER_IP:PORT/ -X POST -d "param1=sample"
+```
+
+----
+
+
+### Useful commands (condensed)
+
+```
+echo text | base64 — base64 encode
+
+echo b64 | base64 -d — base64 decode
+
+echo text | xxd -p — hex encode
+
+echo hex | xxd -p -r — hex decode
+
+echo text | tr 'A-Za-z' 'N-ZA-Mn-za-m' — rot13 encode/decode
+
+ctrl+u (Firefox) — view page source
+
+```
+
+----
+
+### Tools & resources (short list)
+
+- Run / debug / quick console: JS Console — https://jsconsole.com/
+
+- Beautify / pretty print: Prettier — https://prettier.io/playground/, Beautifier — https://beautifier.io/
+
+- Unpackers / deobfuscators: UnPacker — https://matthewfl.com/unPacker.html, JSNice — http://www.jsnice.org/
+
+- Experiment / run snippets: playcode — https://playcode.io/javascript
+
+- Special encoders: JSFuck, JJEncode, AAEncode (use sparingly — performance hit)
+
+---
+
+### Final notes / best practices
+
+- Always prefer understanding unpacker logic rather than blindly running obfuscated code.
+
+- Automated tools help but aren’t sufficient for custom obfuscation; manual analysis may be required.
+
+- Avoid performing security/cryptographic logic client-side — it’s easy to bypass or extract keys.
+
+- When publishing analyses/examples, strip any sensitive endpoints or secrets before posting.
 
 
 

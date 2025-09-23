@@ -33,7 +33,7 @@ Aquí encontrarás:
 - [Artículos técnicos](articulos_tecnicos/)
 - [Apuntes eJPTv2](preparacion_ejpt/)
 - [Writeups de máquinas](writeups/)
-
+- [HTB CBBH Notes](htb-cbbh-notes/)
 
 
 

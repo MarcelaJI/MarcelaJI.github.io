@@ -94,8 +94,8 @@ dirbuster -u <url> -l <ruta_diccionario.txt> -t 50 -e php,txt,html -o resultado.
 ---
 
 
-<div style="text-align:center; font-size: 0.9em; margint-top: 40px; color: #33ff33;">
-    💻 Hecho con 💚 por <strong>Marcela</strong> - 2025
+<div style="text-align:center; font-size: 0.9em; margint-top: 40px; color: #fefefeff;">
+    © 2025 <strong>Marcela Jimenez</strong>
 </div>
 
 

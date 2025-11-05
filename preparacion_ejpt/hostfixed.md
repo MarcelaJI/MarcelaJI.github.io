@@ -32,3 +32,7 @@ wmic qfe list full
 ```
 
 💡 Tip: El comando PowerShell es más moderno y ofrece mejor formato de salida, mientras que WMIC es compatible con versiones más antiguas de Windows.
+
+<div style="text-align:center; font-size: 0.9em; margint-top: 40px; color: #fefefeff;">
+    © 2025 <strong>Marcela Jimenez</strong>
+</div>

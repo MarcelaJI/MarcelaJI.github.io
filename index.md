@@ -13,9 +13,10 @@ Soy una apasionada de la ciberseguridad, especialmente del trabajo en red, la se
 
 Actualmente estudio programación en 42 Madrid, donde cada día trae nuevos retos (y sí… el café sigue siendo mi mejor aliado ☕).
 
-Tengo la certificación eJPTv2 y me estoy preparando activamente para el programa de recompensas por errores de CBBH, perfeccionando constantemente mis habilidades en seguridad ofensiva.
+Tengo la certificación eJPTv2 y me estoy preparando activamente para la certificación HTB Certified Web Exploitation Specialist (HTB CWES)
+, perfeccionando constantemente mis habilidades en seguridad ofensiva.
 
-HAquí encontrarás:
+Aquí encontrarás:
 
 - Técnicas ofensivas y metodologías de red team
 
@@ -36,7 +37,7 @@ HAquí encontrarás:
 - [Artículos técnicos](articulos_tecnicos/)
 - [Apuntes eJPTv2](preparacion_ejpt/)
 - [Writeups de máquinas](writeups/)
-- [HTB CBBH Notes](htb-cbbh-notes/)
+- [HTB CWES Notes](htb-cbbh-notes/)
 
 
 

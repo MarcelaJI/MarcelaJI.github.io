@@ -5,23 +5,23 @@ title: Inicio
 
 <img src="assets/img/mar.jpeg" alt="foto de Marcela" style="width: 180px; border-radius: 100px; display: block; margin: 0 auto 20px;" />
 
-👋 Hi, I’m Marcela!
+👋 ¡Hola! Soy Marcela!
 
-Welcome to my personal corner on the web.
+Bienvenido/a a mi espacio personal en la web.
 
-I’m a cybersecurity enthusiast with a passion for red teaming, offensive security, and ethical hacking. I love dissecting systems to understand how they work, uncovering vulnerabilities, and sharing what I learn with the community.
+Soy una apasionada de la ciberseguridad, especialmente del trabajo en red, la seguridad ofensiva y el hacking ético. Me encanta analizar sistemas para comprender su funcionamiento, descubrir vulnerabilidades y compartir mis conocimientos con la comunidad.
 
-I’m currently studying programming at 42 Madrid, where every day brings new challenges (and yes… coffee is still my most reliable framework ☕).
+Actualmente estudio programación en 42 Madrid, donde cada día trae nuevos retos (y sí… el café sigue siendo mi mejor aliado ☕).
 
-I hold the eJPTv2 certification and I’m actively preparing for the CBBH Bug Bounty program, constantly honing my offensive security skills.
+Tengo la certificación eJPTv2 y me estoy preparando activamente para el programa de recompensas por errores de CBBH, perfeccionando constantemente mis habilidades en seguridad ofensiva.
 
-Here, you’ll find:
+HAquí encontrarás:
 
-- Offensive techniques and red team methodologies
+- Técnicas ofensivas y metodologías de red team
 
-- Technical insights and cybersecurity reflections
+- Análisis técnicos y reflexiones sobre ciberseguridad
 
-- Occasional personal notes, because the human side of tech matters too
+- Notas personales ocasionales, porque el lado humano de la tecnología también importa.
 
 
 
@@ -29,7 +29,7 @@ Here, you’ll find:
 ---
 
 
-## Explore my work:
+## Explora mi trabajo:
 
 - [Apuntes de hacking y pentesting](apuntes/)
 - [Proyectos de 42](proyectos_42/)
@@ -47,7 +47,7 @@ Here, you’ll find:
 
 ---
 
-Connect with me:
+Conecta conmigo:
 
 [Email](mailto:ingridjimenez113@gmail.com)
 [Github](https://github.com/MarcelaJi)
@@ -55,8 +55,8 @@ Connect with me:
 
 ---
 
-Thank you for stopping by!
+¡Gracias por su visita!
 
-<div style="text-align:center; font-size: 0.9em; margint-top: 40px; color: #33ff33;">
-    💻 Hecho con 💚 por <strong>Marcela</strong> - 2025
+<div style="text-align:center; font-size: 0.9em; margint-top: 40px; color: #fefefeff;">
+    © 2025 <strong>Marcela Jimenez</strong>
 </div>

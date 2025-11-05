@@ -39,7 +39,7 @@ Es importante entender los diferentes tipos de inyecciones SQL y cómo pueden ut
 
 ---
 
-<div style="text-align:center; font-size: 0.9em; margint-top: 40px; color: #33ff33;">
-    💻 Hecho con 💚 por <strong>Marcela</strong> - 2025
-</div>
+<div style="text-align:center; font-size: 0.9em; margint-top: 40px; color: #fefefeff;">
+    © 2025 <strong>Marcela Jimenez</strong>
+</div>>
 

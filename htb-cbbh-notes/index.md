@@ -1,14 +1,17 @@
 ---
 layout: default
-title: HTB CBBH notes
+title: HTB CWES notes
 ---
 
-## CBBH Notes 📚
+## CWES Notes 📚
 
-Study notes and hands-on write-ups created while preparing for the
-**Hack The Box — Certified Bug Bounty Hunter (CBBH)** certification.
-Each module folder contains a short article, runnable examples, screenshots,
-and quick commands/cheatsheets to help you learn and reproduce the exercises.
+Apuntes y resúmenes prácticos creados durante la preparación para la certificación **HTB Certified Web Exploitation Specialist (HTB CWES)**.
+
+Cada carpeta de módulo contiene un breve artículo, ejemplos ejecutables, capturas de pantalla y comandos rápidos/chuletas para ayudarte a aprender y reproducir los ejercicios.
 
 
 [Javascrit Obfuscation & Deobfuscation](js_deobfuscation)
+
+<div style="text-align:center; font-size: 0.9em; margint-top: 40px; color: #fefefeff;">
+    © 2025 <strong>Marcela Jimenez</strong>
+</div>>

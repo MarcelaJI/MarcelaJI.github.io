@@ -40,5 +40,5 @@ Haz clic para ver cada writeup directamente en GitHub:
 ---
 
 <div style="text-align:center; font-size: 0.9em; margint-top: 40px; color: #fefefeff;">
-    © 2025 <strong>Marcela Jimenez</strong>
+    © 2026 <strong>Marcela Jimenez</strong>
 </div>

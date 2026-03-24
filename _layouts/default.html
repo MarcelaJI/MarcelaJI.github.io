@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html class="dark" lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+    <script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              primary: "#22c55e",
+              "background-light": "#f3f4f6",
+              "background-dark": "#111827",
+              "surface-dark": "#1f2937",
+            },
+            fontFamily: {
+              display: ["'Roboto Mono'", "monospace"],
+            },
+            borderRadius: {
+              DEFAULT: "0.5rem",
+            },
+          },
+        },
+      };
+    </script>
+
+    <style>
+      body {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+    </style>
+  </head>
+
+  <body class="bg-background-light dark:bg-background-dark font-display text-gray-800 dark:text-gray-300 transition-colors duration-300">
+    <div class="min-h-screen flex flex-col">
+      <header class="w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+        <nav class="flex justify-between items-center gap-4">
+          <a
+            class="text-xl font-bold text-gray-900 dark:text-white hover:text-primary dark:hover:text-primary transition-colors"
+            href="{{ '/' | relative_url }}"
+          >
+            ./HackBlog
+          </a>
+
+          <div class="flex items-center space-x-4 md:space-x-8">
+            <div class="hidden md:flex items-center space-x-6 text-sm">
+              <a class="text-primary hover:opacity-80 transition-opacity" href="{{ '/writeups/' | relative_url }}">Writeups</a>
+              <a class="text-primary hover:opacity-80 transition-opacity" href="{{ '/proyectos_42/' | relative_url }}">Proyectos</a>
+              <a class="text-primary hover:opacity-80 transition-opacity" href="{{ '/apuntes/' | relative_url }}">Apuntes</a>
+              <a class="text-primary hover:opacity-80 transition-opacity" href="{{ '/articulos_tecnicos/' | relative_url }}">Artículos</a>
+              <a class="text-primary hover:opacity-80 transition-opacity" href="{{ '/preparacion_ejpt/' | relative_url }}">eJPT</a>
+              <a class="text-primary hover:opacity-80 transition-opacity" href="{{ '/htb-cbbh-notes/' | relative_url }}">HTB CWES</a>
+            </div>
+
+            <button
+              id="mobile-menu-toggle"
+              class="md:hidden p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary focus:ring-offset-background-light dark:focus:ring-offset-background-dark"
+              aria-label="Abrir menú"
+              aria-expanded="false"
+            >
+              <span class="material-icons text-gray-700 dark:text-gray-300">menu</span>
+            </button>
+
+            <button
+              id="theme-toggle"
+              class="p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary focus:ring-offset-background-light dark:focus:ring-offset-background-dark"
+              aria-label="Cambiar tema"
+            >
+              <span class="material-icons text-gray-700 dark:text-gray-300 block dark:hidden">dark_mode</span>
+              <span class="material-icons text-gray-700 dark:text-gray-300 hidden dark:block">light_mode</span>
+            </button>
+          </div>
+        </nav>
+
+        <div id="mobile-menu" class="md:hidden hidden mt-4 pb-2 border-t border-gray-300 dark:border-gray-700">
+          <div class="pt-3 flex flex-col gap-3 text-sm">
+            <a class="text-primary hover:opacity-80 transition-opacity" href="{{ '/writeups/' | relative_url }}">Writeups</a>
+            <a class="text-primary hover:opacity-80 transition-opacity" href="{{ '/proyectos_42/' | relative_url }}">Proyectos</a>
+            <a class="text-primary hover:opacity-80 transition-opacity" href="{{ '/apuntes/' | relative_url }}">Apuntes</a>
+            <a class="text-primary hover:opacity-80 transition-opacity" href="{{ '/articulos_tecnicos/' | relative_url }}">Artículos</a>
+            <a class="text-primary hover:opacity-80 transition-opacity" href="{{ '/preparacion_ejpt/' | relative_url }}">eJPT</a>
+            <a class="text-primary hover:opacity-80 transition-opacity" href="{{ '/htb-cbbh-notes/' | relative_url }}">HTB CWES</a>
+          </div>
+        </div>
+      </header>
+
+      <main class="flex-grow w-full max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
+        {% if page.url == '/' or page.url == '/index.html' %}
+          <section class="text-center py-10 sm:py-14">
+            <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 dark:text-white leading-tight">
+              <span class="text-primary">./</span> {{ site.title }}
+            </h1>
+            <p class="mt-4 text-lg md:text-xl text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
+              {{ site.description }}
+            </p>
+          </section>
+        {% else %}
+          <section class="text-center pt-6 pb-10">
+            <h1 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white">{{ page.title }}</h1>
+          </section>
+        {% endif %}
+
+        <article class="prose prose-lg dark:prose-invert max-w-none prose-a:text-primary hover:prose-a:opacity-80 prose-headings:text-gray-900 dark:prose-headings:text-white">
+          {{ content }}
+        </article>
+      </main>
+
+      <footer class="w-full bg-background-light dark:bg-background-dark py-6 mt-auto">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-gray-500 dark:text-gray-400 text-sm">
+          <p>© {{ 'now' | date: '%Y' }} {{ site.author }}. All Rights Reserved.</p>
+        </div>
+      </footer>
+    </div>
+
+    <script>
+      const themeToggle = document.getElementById("theme-toggle");
+      if (themeToggle) {
+        themeToggle.addEventListener("click", () => {
+          document.documentElement.classList.toggle("dark");
+        });
+      }
+
+      const mobileMenuToggle = document.getElementById("mobile-menu-toggle");
+      const mobileMenu = document.getElementById("mobile-menu");
+      if (mobileMenuToggle && mobileMenu) {
+        mobileMenuToggle.addEventListener("click", () => {
+          const isOpen = !mobileMenu.classList.contains("hidden");
+          mobileMenu.classList.toggle("hidden");
+          mobileMenuToggle.setAttribute("aria-expanded", String(!isOpen));
+        });
+      }
+    </script>
+  </body>
+</html>

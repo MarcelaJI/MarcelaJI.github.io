@@ -4,9 +4,7 @@ title: Apuntes
 ---
 
 
-# ¿Qué es penetration testing?
-
-Es una técnica de seguridad que consiste en simular ataques reales contra sistemas, redes o aplicaciones para identificar y explotar vulnerabilidades, con el objetivo de evaluar su nivel de seguridad y proponer mejoras antes de que un atacante real las aproveche.
+Aquí encontrarás mis apuntes de pentesting:
 
 ## Lista de apuntes
 

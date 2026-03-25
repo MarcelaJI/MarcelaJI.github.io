@@ -42,6 +42,11 @@
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
       }
+
+      /* The layout already renders page.title above content. Hide duplicated Markdown H1. */
+      article.prose > h1:first-of-type {
+        display: none;
+      }
     </style>
   </head>
 

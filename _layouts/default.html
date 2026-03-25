@@ -87,16 +87,29 @@
           </div>
         </nav>
 
-        <div id="mobile-menu" class="md:hidden hidden fixed inset-0 z-40 bg-background-light dark:bg-background-dark pt-28 px-8">
-          <div class="max-w-6xl mx-auto flex flex-col gap-6 text-2xl">
+      </header>
+
+      <div id="mobile-menu" class="md:hidden hidden fixed inset-0 z-[70] bg-background-light dark:bg-background-dark">
+        <div class="h-full w-full px-8 pt-8 pb-10 overflow-y-auto">
+          <div class="max-w-6xl mx-auto flex justify-end">
+            <button
+              id="mobile-menu-close"
+              class="p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-primary"
+              aria-label="Cerrar menú"
+            >
+              <span class="material-icons text-gray-700 dark:text-gray-300">close</span>
+            </button>
+          </div>
+
+          <nav class="max-w-6xl mx-auto mt-10 flex flex-col gap-6 text-2xl">
             <a class="text-primary hover:opacity-80 transition-opacity" href="{{ '/writeups/' | relative_url }}">Writeups</a>
             <a class="text-primary hover:opacity-80 transition-opacity" href="{{ '/proyectos_42/' | relative_url }}">Proyectos</a>
             <a class="text-primary hover:opacity-80 transition-opacity" href="{{ '/apuntes/' | relative_url }}">Apuntes</a>
             <a class="text-primary hover:opacity-80 transition-opacity" href="{{ '/articulos_tecnicos/' | relative_url }}">Artículos</a>
             <a class="text-primary hover:opacity-80 transition-opacity" href="{{ '/preparacion_ejpt/' | relative_url }}">eJPT</a>
-          </div>
+          </nav>
         </div>
-      </header>
+      </div>
 
       <main class="flex-grow w-full max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
         {% if page.url == '/' or page.url == '/index.html' %}
@@ -132,16 +145,19 @@
 
       const mobileMenuToggle = document.getElementById("mobile-menu-toggle");
       const mobileMenu = document.getElementById("mobile-menu");
+      const mobileMenuClose = document.getElementById("mobile-menu-close");
       if (mobileMenuToggle && mobileMenu) {
         const closeMenu = () => {
           mobileMenu.classList.add("hidden");
           document.body.classList.remove("overflow-hidden");
+          document.documentElement.classList.remove("overflow-hidden");
           mobileMenuToggle.setAttribute("aria-expanded", "false");
         };
 
         const openMenu = () => {
           mobileMenu.classList.remove("hidden");
           document.body.classList.add("overflow-hidden");
+          document.documentElement.classList.add("overflow-hidden");
           mobileMenuToggle.setAttribute("aria-expanded", "true");
         };
 
@@ -157,6 +173,10 @@
         mobileMenu.querySelectorAll("a").forEach((link) => {
           link.addEventListener("click", closeMenu);
         });
+
+        if (mobileMenuClose) {
+          mobileMenuClose.addEventListener("click", closeMenu);
+        }
 
         window.addEventListener("keydown", (event) => {
           if (event.key === "Escape") {

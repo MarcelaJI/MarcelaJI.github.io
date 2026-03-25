@@ -109,8 +109,3 @@ sudo ssh -i id_rsa <username>@$<ip_target> # Colocaremos el usuario y la ip que 
 ```
 
 ---
-
-
-<div style="text-align:center; font-size: 0.9em; margint-top: 40px; color: #fefefeff;">
-    © 2025 <strong>Marcela Jimenez</strong>
-</div>

@@ -15,7 +15,3 @@ En esta sección subiré los proyectos que realicé en el campus de programació
 - [Pipex](pipex)
 
 ---
-
-<div style="text-align:center; font-size: 0.9em; margint-top: 40px; color: #fefefeff;">
-    © 2026 <strong>Marcela Jimenez</strong>
-</div>

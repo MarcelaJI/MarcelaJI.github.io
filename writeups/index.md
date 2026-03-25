@@ -38,7 +38,3 @@ Haz clic para ver cada writeup directamente en GitHub:
 [Fruits](https://github.com/MarcelaJI/The-Hackers-Labs/blob/main/Fruits/README.md)
 
 ---
-
-<div style="text-align:center; font-size: 0.9em; margint-top: 40px; color: #fefefeff;">
-    © 2026 <strong>Marcela Jimenez</strong>
-</div>

@@ -29,7 +29,3 @@ Comprender la estructura en capas del modelo OSI es esencial para cualquier anal
 Esto nos permite identificar de manera efectiva los puntos débiles de la red y aplicar medidas de seguridad adecuadas para protegerla de posibles ataques.
 
 ---
-
-<div style="text-align:center; font-size: 0.9em; margint-top: 40px; color: #fefefeff;">
-    © 2025 <strong>Marcela Jimenez</strong>
-</div>>

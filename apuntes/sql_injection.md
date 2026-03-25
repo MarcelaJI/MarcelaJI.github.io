@@ -38,8 +38,3 @@ Asimismo, es necesario hacer una breve distinción de los diferentes tipos de ba
 Es importante entender los diferentes tipos de inyecciones SQL y cómo pueden utilizarse para obtener información confidencial y controlar una base de datos. Los desarrolladores deben asegurarse de validar adecuadamente la entrada del usuario y de utilizar técnicas de defensa, como la sanitización de entrada y la preparación de consultas SQL, para prevenir las inyecciones SQL en sus aplicaciones web.
 
 ---
-
-<div style="text-align:center; font-size: 0.9em; margint-top: 40px; color: #fefefeff;">
-    © 2025 <strong>Marcela Jimenez</strong>
-</div>>
-

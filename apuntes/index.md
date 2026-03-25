@@ -27,7 +27,3 @@ Es una técnica de seguridad que consiste en simular ataques reales contra siste
 - [Cross-Site Scripting XSS](cross-site_scripting)
 
 ---
-
-<div style="text-align:center; font-size: 0.9em; margint-top: 40px; color: #fefefeff;">
-    © 2025 <strong>Marcela Jimenez</strong>
-</div>>

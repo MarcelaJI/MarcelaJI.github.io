@@ -92,21 +92,3 @@ dirbuster -u <url> -l <ruta_diccionario.txt> -t 50 -e php,txt,html -o resultado.
 ✔ --exclude-status 403,404 → Oculta respuestas con códigos 403 y 404.
 
 ---
-
-
-<div style="text-align:center; font-size: 0.9em; margint-top: 40px; color: #fefefeff;">
-    © 2025 <strong>Marcela Jimenez</strong>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-

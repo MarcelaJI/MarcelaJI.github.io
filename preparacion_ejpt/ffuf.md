@@ -126,20 +126,3 @@ ffuf -u <url>/FUZZ -w <ruta_diccionario.txt> -fs 1234
 ✔ Filtra resultados irrelevantes (-fc, -fs, -mc).
 
 ✔ Prueba con diferentes herramientas, como gobuster o dirbuster, para comparar resultados.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div style="text-align:center; font-size: 0.9em; margint-top: 40px; color: #fefefeff;">
-    © 2025 <strong>Marcela Jimenez</strong>
-</div>

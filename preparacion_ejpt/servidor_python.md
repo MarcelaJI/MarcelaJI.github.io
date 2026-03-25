@@ -14,9 +14,3 @@ python3 -m http.server 80 # Inicia un servidor HTTP básico
 ```
 
 ---
-
-<div style="text-align:center; font-size: 0.9em; margint-top: 40px; color: #fefefeff;">
-    © 2025 <strong>Marcela Jimenez</strong>
-</div>
-
-

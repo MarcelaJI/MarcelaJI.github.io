@@ -117,7 +117,3 @@ login 42:
 Este proyecto es parte del currículo académico de 42 Madrid y se rige por sus normas de propiedad intelectual.
 
 ---
-
-<div style="text-align:center; font-size: 0.9em; margint-top: 40px; color: #fefefeff;">
-    © 2025 <strong>Marcela Jimenez</strong>
-</div>

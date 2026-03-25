@@ -57,8 +57,3 @@ Brainfuck es un lenguaje de programación esotérico creado en 1993 por Urban M�
 🔹También lo ves en CTFs o labs como easter egg.
 
 ---
-
-
-<div style="text-align:center; font-size: 0.9em; margint-top: 40px; color: #fefefeff;">
-    © 2025 <strong>Marcela Jimenez</strong>
-</div>>

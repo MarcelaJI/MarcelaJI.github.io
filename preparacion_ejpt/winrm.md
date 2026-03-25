@@ -135,7 +135,3 @@ migrate <PID>            # Migrar a otro proceso
 Este método combina WinRM para el acceso inicial y Meterpreter para post-explotación más avanzada, proporcionando mayor flexibilidad en las operaciones posteriores.
 
 ----
-
-<div style="text-align:center; font-size: 0.9em; margint-top: 40px; color: #fefefeff;">
-    © 2025 <strong>Marcela Jimenez</strong>
-</div>

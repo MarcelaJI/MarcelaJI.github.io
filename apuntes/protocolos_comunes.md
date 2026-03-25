@@ -32,7 +32,3 @@ Puertos UDP comunes:
 Cabe destacar que estos son solo **algunos de los más comunes**. Existen muchos más puertos los cuales operan tanto por TCP como por UDP.
 
 ---
-
-<div style="text-align:center; font-size: 0.9em; margint-top: 40px; color: #fefefeff;">
-    © 2025 <strong>Marcela Jimenez</strong>
-</div>>

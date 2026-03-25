@@ -110,7 +110,3 @@ Después de realizar múltiples escaneos y emplear diversas herramientas para id
 Los CMS más comunes que probablemente encontraremos incluyen WordPress, Joomla y Drupal.
 
 ---
-
-<div style="text-align:center; font-size: 0.9em; margint-top: 40px; color: #fefefeff;">
-    © 2025 <strong>Marcela Jimenez</strong>
-</div>

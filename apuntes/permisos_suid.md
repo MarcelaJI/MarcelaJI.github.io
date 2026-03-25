@@ -95,7 +95,3 @@ Estos binarios son "escalables" si los vemos con SUID.
 En GTFObins buscas python, vim, tar, etc., y te dice: si tienes SUID en este binario, haz este comando para obtener root.
 
 ---
-
-<div style="text-align:center; font-size: 0.9em; margint-top: 40px; color: #fefefeff;">
-    © 2025 <strong>Marcela Jimenez</strong>
-</div>>

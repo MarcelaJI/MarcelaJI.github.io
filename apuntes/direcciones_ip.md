@@ -12,7 +12,3 @@ Existen dos versiones de direcciones IP: IPv4 e IPv6. La versión IPv4 utiliza u
 Las direcciones IPv4 se representan como cuatro números separados por puntos, como 192.168.0.1, mientras que las direcciones IPv6 se representan en notación hexadecimal y se separan por dos puntos, como 2001:0db8:85a3:0000:0000:8a2e:0370:7334.
 
 ---
-
-<div style="text-align:center; font-size: 0.9em; margint-top: 40px; color: #fefefeff;">
-    © 2025 <strong>Marcela Jimenez</strong>
-</div>>

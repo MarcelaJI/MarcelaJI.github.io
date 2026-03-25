@@ -92,8 +92,3 @@ hydra -l <username> -P /usr/share/wordlists/rockyou.txt <url> http-post-form "/a
 
 
 ----
-
-
-<div style="text-align:center; font-size: 0.9em; margint-top: 40px; color: #fefefeff;">
-    © 2025 <strong>Marcela Jimenez</strong>
-</div>

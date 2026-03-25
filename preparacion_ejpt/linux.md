@@ -104,8 +104,3 @@ cat /etc/ssh/sshd_config # Configuración SSH
 [GTFOBins](https://gtfobins.github.io) -> Con esta web podemos buscar tanto loos binarios SUID y los archivos que podamos ejecutar como el usuario con máximos privilegios al utilizar **sudo -l**.
 
 ---
-
-
-<div style="text-align:center; font-size: 0.9em; margint-top: 40px; color: #fefefeff;">
-    © 2025 <strong>Marcela Jimenez</strong>
-</div>

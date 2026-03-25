@@ -32,7 +32,3 @@ macchanger -l | grep -i vmware
 Donde grep nos ayuda a filtrar por ese nombre y -i nos ayuda para que sea insensitive, es decir que podemos escribir en mayúsculas o minúsculas y grep de igual manera nos filtrará por esa palabra.
 
 ---
-
-<div style="text-align:center; font-size: 0.9em; margint-top: 40px; color: #fefefeff;">
-    © 2025 <strong>Marcela Jimenez</strong>
-</div>>

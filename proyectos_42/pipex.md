@@ -3,7 +3,7 @@ layout: default
 title: So_Long
 ---
 
-# 🛠️ pipex
+## 🛠️ pipex
 
 > Proyecto realizado como parte del cursus de **42 Madrid**  
 > ✅ Puntuación obtenida: **100/100**

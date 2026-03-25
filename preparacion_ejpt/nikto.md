@@ -3,7 +3,7 @@ layout: default
 title: Preparación EJPTv2
 ---
 
-# Nikto 🛠️
+## Nikto 🛠️
 
 Nikto es una herramienta de código abierto para escanear servidores web y detectar vulnerabilidades. Funciona buscando archivos peligrosos, versiones obsoletas del software del servidor web y configuraciones inseguras. 
 

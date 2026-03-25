@@ -3,7 +3,7 @@ layout: default
 title: Preparación EJPTv2
 ---
 
-# Escala de privilegios en Linux 
+## Escala de privilegios en Linux 
 
 
 ## Información del Sistema

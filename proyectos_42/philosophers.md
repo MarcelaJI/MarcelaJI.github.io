@@ -3,7 +3,7 @@ layout: default
 title: So_Long
 ---
 
-# 🍝 Philosophers
+## 🍝 Philosophers
 
 Este proyecto es una simulación del famoso problema de los filósofos comensales. Cada filósofo piensa, come y duerme, y compite por recursos limitados (tenedores) sin generar condiciones de carrera ni interbloqueos.
 

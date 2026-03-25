@@ -4,7 +4,7 @@ title: Preparación EJPTv2
 ---
 
 
-# Brainfuck
+## Brainfuck
 
 Brainfuck es un lenguaje de programación esotérico creado en 1993 por Urban Müller.
 

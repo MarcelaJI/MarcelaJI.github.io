@@ -3,7 +3,7 @@ layout: default
 title: Preparación EJPTv2
 ---
 
-# 🔍 Puerto 25 - SMTP
+## 🔍 Puerto 25 - SMTP
 
 El puerto 25 es el puerto predeterminado utilizado por el protocolo SMTP (Simple Mail Tranfer Protocol) para el envío de correo electrónico entre servidores. Es decir, se utiliza para la comunicación de correo electrónico entre diferentes servidores de correo.
 

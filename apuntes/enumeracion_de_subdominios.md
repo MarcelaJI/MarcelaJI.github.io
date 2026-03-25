@@ -3,7 +3,7 @@ layout: default
 title: Apuntes
 ---
 
-# Enumeración de subdominios
+## Enumeración de subdominios
 
 La enumeración de subdominios es una de las fases cruciales en la seguridad informática para identificar los subdominios asociados a un dominio principal.
 

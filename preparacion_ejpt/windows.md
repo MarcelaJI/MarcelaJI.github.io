@@ -3,7 +3,7 @@ layout: default
 title: Preparación EJPTv2
 ---
 
-# Escalada de privilegios en Windows
+## Escalada de privilegios en Windows
 
 ##  Enumeración del Sistema
 

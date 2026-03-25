@@ -3,7 +3,7 @@ layout: default
 title: Preparación EJPTv2
 ---
 
-# Gobuster 🛠️
+## Gobuster 🛠️
 
 Gobuster es una herramienta open source que permite la identificación de contenido web como directorios o ficheros que pudiesen estar accesibles u ocultos en un portal web. Esto lo realiza a través de solicitudes http con un diccionario o por fuerza bruta, y detectará la existencia de las mismas en función del código de respuesta obtenido.
 

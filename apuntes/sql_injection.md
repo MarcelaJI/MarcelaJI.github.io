@@ -2,7 +2,7 @@
 layout: default
 title: Apuntes
 ---
-# SQL Injection (SQLI)
+## SQL Injection (SQLI)
 
 SQL Injection (SQLI) es una técnica de ataque utilizada para explotar vulnerabilidades en aplicaciones web que no validan adecuadamente la entrada del usuario en la consulta SQL que se envía a la base de datos. Los atacantes pueden utilizar esta técnica para ejecutar consultas SQL maliciosas y obtener información confidencial, como nombres de usuario, contraseñas y otra información almacenada en la base de datos.
 

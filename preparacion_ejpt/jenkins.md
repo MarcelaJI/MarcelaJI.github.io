@@ -3,7 +3,7 @@ layout: default
 title: Preparación EJPTv2
 ---
 
-# 🌐 Jenkins
+## 🌐 Jenkins
 
 Jenkins es una herramienta de integración continua ampliamente utilizada en entornos de desarrollo y despliegue. Debido a su importancia, es un objetivo común en auditorías de seguridad y pruebas de penetración.
 

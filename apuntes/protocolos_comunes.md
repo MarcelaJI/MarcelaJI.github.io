@@ -3,7 +3,7 @@ layout: default
 title: Apuntes
 ---
 
-# Protocolos comunes (UDP, TCP) y Three-Way Handshake
+## Protocolos comunes (UDP, TCP) y Three-Way Handshake
 
 Los protocolos TCP (Transmission Control Protocol) y UDP (User Datagram Protocol) son dos de los protocolos de red más comunes utilizados en la transferencia de datos a través de ordenadores.
 

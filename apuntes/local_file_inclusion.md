@@ -3,7 +3,7 @@ layout: default
 title: Apuntes
 ---
 
-# Local File Inclusion (LFI)
+## Local File Inclusion (LFI)
 
 Local File Inclusion (LFI) es una vulnerabilidad de seguridad que ocurre cuando una aplicación web permite que el usuario incluya archivos del servidor local en la ejecución de la aplicación sin validación adecuada. Esto puede permitir a un atacante leer archivos sensibles, como contraseñas, configuraciones, o incluso ejecutar código malicioso si hay condiciones favorables.
 

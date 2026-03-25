@@ -3,7 +3,7 @@ layout: default
 title: Preparación EJPTv2
 ---
 
-# Comandos de Red 🌐
+## Comandos de Red 🌐
 
 Una recopilación de comandos esenciales para gestionar y diagnosticar redes en Linux, Windows y macOS.
 

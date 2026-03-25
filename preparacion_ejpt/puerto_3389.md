@@ -4,7 +4,7 @@ title: Preparación EJPTv2
 ---
 
 
-# 🔍 3389 - RDP
+## 🔍 3389 - RDP
 
  RDP El puerto 3389 es utilizado por el servicio Remote Desktop Protocol (RDP), un protocolo de acceso remoto común en entornos empresariales y administrativos. Debido a su uso extendido, es un objetivo frecuente de ataques y auditorías de seguridad.
 

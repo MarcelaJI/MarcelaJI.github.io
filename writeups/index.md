@@ -3,7 +3,7 @@ layout: default
 title: Writeups
 ---
 
-# Writeups de máquinas 🧠
+## Writeups de máquinas 🧠
 
 Aquí tienes la lista de las máquinas que he resuelto.
 

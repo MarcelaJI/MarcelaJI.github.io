@@ -3,7 +3,7 @@ layout: default
 title: So_Long
 ---
 
-# 🧠 push_swap
+## 🧠 push_swap
 
 `push_swap` es un proyecto del currículo de 42 que consiste en ordenar una lista de números enteros utilizando un conjunto restringido de operaciones y la menor cantidad posible de movimientos. El algoritmo implementado debe ser lo más eficiente posible, especialmente para conjuntos de datos grandes.
 

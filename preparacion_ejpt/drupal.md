@@ -3,7 +3,7 @@ layout: default
 title: Preparación EJPTv2
 ---
 
-# Drupal
+## Drupal
 
 Un sistema de gestión de contenidos (CMS por sus siglas en inglés) es una herramienta de software que permite a los usuarios añadir, publicar, editar o eliminar contenido desde un sitio web, utilizando un navegador web en un smartphone, tablet u ordenador personal. Habitualmente un software CMS se escribe en un lenguaje de programación que se ejecuta en un ordenador, donde se instalan un servidor web y una base de datos. El contenido y las opciones de configuración del sitio web normalmente se guardan en la base de datos, y por cada petición de página que recibe el servidor web, el sistema combina la información de la base de datos y los recursos (archivos JavaScript, CSS, imágenes, etc. que son parte del CMS o que han sido añadidos) para construir la página solicitada del sitio web.
 

@@ -3,7 +3,7 @@ layout: default
 title: Apuntes
 ---
 
-# NMAP
+## NMAP
 
 *Nmap* es una herramienta de código abierto utilizada para analizar redes y realizar auditorias de seguridad. Con Nmap podemos identificar que hosts están conectados a una red, también los servicios que se están ejecutando y las vulnerabilidades que podrían ser explotadas por un atacante.
 

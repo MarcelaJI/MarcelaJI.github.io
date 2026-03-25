@@ -3,7 +3,7 @@ layout: default
 title: Apuntes
 ---
 
-# Apuntes
+## Apuntes
 
 Aquí encontrarás mis apuntes de pentesting:
 

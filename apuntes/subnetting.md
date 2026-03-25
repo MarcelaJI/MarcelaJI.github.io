@@ -3,7 +3,7 @@ layout: default
 title: Apuntes
 ---
 
-# Subnetting - Qué es y cómo se interpreta una máscara de red
+## Subnetting - Qué es y cómo se interpreta una máscara de red
 
 Subnetting es una técnica utilizada para dividir una red IP en subredes más pequeñas y manejables. Esto se logra mediante el uso de **máscaras de red**, que permiten definir qué bits de la dirección IP corresponden a la red y cuáles a los hosts.
 

@@ -3,7 +3,7 @@ layout: default
 title: Preparación EJPTv2
 ---
 
-# 📂 Puerto 21 - FTP (File Transfer Protocol) 🔄
+## 📂 Puerto 21 - FTP (File Transfer Protocol) 🔄
 
 Es el puerto estándar para el protocolo FTP, usado para la transferencia de archivos entre clientes y servidores.
 Permite subir, descargar y gestionar archivos en un servidor remoto.

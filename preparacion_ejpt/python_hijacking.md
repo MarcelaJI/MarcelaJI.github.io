@@ -3,7 +3,7 @@ layout: default
 title: Preparación EJPTv2
 ---
 
-# Python Library Hijacking
+## Python Library Hijacking
 
 Python Library Hijacking es una técnica de escalamiento de privilegios que explota la manera en que Python busca y carga módulos cuando se utiliza import. Si un script Python se ejecuta con permisos elevados (por ejemplo, usando sudo) y el atacante puede colocar un archivo con el mismo nombre que un módulo importado en una ruta que Python revisa antes que la librería original, el código del atacante se ejecuta con esos permisos elevados.
 

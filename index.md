@@ -3,7 +3,7 @@ layout: default
 title: Inicio
 ---
 
-<img src="assets/img/mar.jpeg" alt="foto de Marcela" style="width: 180px; border-radius: 100px; display: block; margin: 0 auto 20px;" />
+<img src="assets/img/imarcej.jpeg" alt="foto de Marcela" style="width: 180px; height: 180px; border-radius: 50%; display: block; margin: 0 auto 20px; object-fit: cover; object-position: center 35%;" />
 
 👋 ¡Hola! Soy Marcela
 

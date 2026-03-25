@@ -3,7 +3,7 @@ layout: default
 title: Preparación EJPTv2
 ---
 
-# 🔍Puerto - 3306 - MySQL & SqlMap
+## 🔍Puerto - 3306 - MySQL & SqlMap
 
 El puerto 3306 es utilizado por el servicio MySQL, una de las bases de datos más utilizadas en entornos empresariales y de desarrollo. Debido a su criticidad, es un objetivo frecuente en auditorías de seguridad.
 

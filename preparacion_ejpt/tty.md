@@ -3,7 +3,7 @@ layout: default
 title: Preparación EJPTv2
 ---
 
-# ⚙️ TTY - Spawning
+## ⚙️ TTY - Spawning
 
 ¿Qué es un TTY?
 

@@ -3,7 +3,7 @@ layout: default
 title: Preparación EJPTv2
 ---
 
-# Dirbuster 🛠️
+## Dirbuster 🛠️
 
 DirBuster es una herramienta basada en Java, creada por OWASP, que permite la exploración de directorios y archivos ocultos en servidores web. A diferencia de otras herramientas como Gobuster o FFUF, DirBuster tiene una interfaz gráfica y permite realizar búsquedas tanto con listas predefinidas como con ataques de fuerza bruta generados dinámicamente.
 

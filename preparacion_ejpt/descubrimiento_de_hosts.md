@@ -3,7 +3,7 @@ layout: default
 title: Preparación EJPTv2
 ---
 
-# Descubrimiento de Hosts 🔍🖥️
+## Descubrimiento de Hosts 🔍🖥️
 
 El descubrimiento de hosts es la fase inicial de reconocimiento en la que se identifica qué dispositivos o sistemas están disponibles en una red.
 Su objetivo es **mapear el alcance real del objetivo** antes de profundizar en el escaneo de puertos o vulnerabilidades.

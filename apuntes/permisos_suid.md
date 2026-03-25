@@ -3,7 +3,7 @@ layout: default
 title: Apuntes
 ---
 
-# Permisos SUID
+## Permisos SUID
 
 ## Qué es SUID?
 

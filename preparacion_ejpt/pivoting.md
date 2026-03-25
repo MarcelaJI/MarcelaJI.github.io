@@ -3,7 +3,7 @@ layout: default
 title: Preparación EJPTv2
 ---
 
-# Pivoting con Metasploit utilizando una máquina Windows 📡
+## Pivoting con Metasploit utilizando una máquina Windows 📡
 
 El pivoting es una técnica esencial en la fase de post-explotación que permite a un atacante moverse lateralmente dentro de una red comprometida, utilizando un sistema ya infiltrado como punto de apoyo. En entornos Windows, Metasploit facilita este proceso mediante el uso de sesiones Meterpreter, tunelización y Port forwarding para acceder a sistemas internos que no son visibles desde el exterior.
 

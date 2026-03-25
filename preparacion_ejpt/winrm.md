@@ -4,7 +4,7 @@ title: Preparación EJPTv2
 ---
 
 
-# WinRM 🌐
+## WinRM 🌐
 
 Windows Remote Management (WinRM) es un servicio de administración remota que utiliza el protocolo WS-Management. Opera por defecto en los puertos 5985 (HTTP) y 5986 (HTTPS).
 

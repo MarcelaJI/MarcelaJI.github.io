@@ -3,7 +3,7 @@ layout: default
 title: Apuntes
 ---
 
-# Uso de scripts y categorías en nmap para aplicar reconocimiento
+## Uso de scripts y categorías en nmap para aplicar reconocimiento
 
 Una de las características más poderosas de **Nmap** es su capacidad para automatizar tareas utilizando **scripts personalizados**. Los scripts de Nmap permiten a los profesionales de seguridad automatizar las tareas de reconocimiento y descubrimiento en la red, además de obtener información valiosa sobre los sistemas y servicios que se están ejecutando en ellos. El parámetro **–script** de Nmap permite al usuario seleccionar un conjunto de scripts para ejecutar en un objetivo de escaneo específico.
 

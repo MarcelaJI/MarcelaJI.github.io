@@ -3,7 +3,7 @@ layout: default
 title: Direcciones IP
 ---
 
-# Direcciones IP (IPV4 e IPV6)
+## Direcciones IP (IPV4 e IPV6)
 
 Las direcciones IP son identificadores numéricos únicos que se utilizan para identificar dispositivos en una red, como ordenadores, routers, servidores y otros dispositivos conectados a Internet.
 

@@ -3,7 +3,7 @@ layout: default
 title: So_Long
 ---
 
-# 🐉 so_long
+## 🐉 so_long
 
 **so_long** es un pequeño videojuego 2D desarrollado en C con la librería gráfica **MLX42**. El protagonista es un **dragón** que debe moverse por un mapa, **recolectar todos los fuegos 🔥** y finalmente **llegar a la puerta de salida 🚪**, que solo se abrirá si todos los fuegos han sido recogidos.
 

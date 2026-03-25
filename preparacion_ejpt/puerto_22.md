@@ -3,7 +3,7 @@ layout: default
 title: Preparación EJPTv2
 ---
 
-# Puerto 22 – SSH (Secure Shell) 🔐💻
+## Puerto 22 – SSH (Secure Shell) 🔐💻
 
 Es el puerto estándar para SSH, un protocolo que permite acceso remoto seguro a sistemas.
 SSH cifra la comunicación, evitando que la información sea interceptada o modificada, y es clave para administración remota y transferencias seguras.

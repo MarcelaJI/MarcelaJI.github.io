@@ -3,7 +3,7 @@ layout: default
 title: Preparación EJPTv2
 ---
 
-# Puerto 80/443 - HTTP/HTTPS
+## Puerto 80/443 - HTTP/HTTPS
 
 Al realizar un escaneo de puertos, es común encontrar los puertos 80 y 443 abiertos. Para analizar los servicios y versiones en ejecución en estos puertos, utilizaremos la herramienta Nmap, lo que nos permitirá identificar cabeceras, tecnologías y otros detalles relevantes.
 

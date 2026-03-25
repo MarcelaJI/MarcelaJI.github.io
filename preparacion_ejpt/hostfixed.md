@@ -4,7 +4,7 @@ title: Preparación EJPTv2
 ---
 
 
-# ⚙️ HotFixed
+## ⚙️ HotFixed
 
 Un hotfix es una actualización de software diseñada para corregir errores críticos, fallos de seguridad o problemas urgentes en un sistema sin necesidad de esperar una actualización mayor.
 

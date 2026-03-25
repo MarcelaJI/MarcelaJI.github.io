@@ -3,7 +3,7 @@ layout: default
 title: Preparación EJPTv2
 ---
 
-# Microsoft IIS
+## Microsoft IIS
 
 ### 📝 ¡IMPORTANTE!:
 

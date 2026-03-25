@@ -3,7 +3,7 @@ layout: default
 title: Direcciones IP
 ---
 
-# Direcciones MAC (OUI y NIC)
+## Direcciones MAC (OUI y NIC)
 
 La dirección MAC es un número hexadecimal de 12 dígitos (número binario de 6 bytes), que está representado principalmente por notación hexadecimal de dos puntos.
 

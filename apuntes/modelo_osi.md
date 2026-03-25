@@ -3,7 +3,7 @@ layout: default
 title: Apuntes
 ---
 
-# El modelo OSI
+## El modelo OSI
 
 En redes de ordenadores, el modelo **OSI** (Open Systems Interconnection) es una estructura de **siete capas** que se utiliza para describir el proceso de comunicación entre dispositivos. Cada capa proporciona servicios y funciones específicas, que permiten a los dispositivos comunicarse a través de la red.
 

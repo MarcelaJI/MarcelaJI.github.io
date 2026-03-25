@@ -4,7 +4,7 @@ title: Preparación EJPTv2
 ---
 
 
-# 🔍 Puerto 1521 - Oracle Database
+## 🔍 Puerto 1521 - Oracle Database
 
 Oracle Database El puerto 1521 es utilizado por el servicio Oracle Database, una de las bases de datos más utilizadas en entornos empresariales y críticos. Debido a su importancia, es un objetivo frecuente en auditorías de seguridad.
 

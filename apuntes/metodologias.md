@@ -4,7 +4,7 @@ title: Apuntes
 ---
 
 
-# Metodologías de pruebas de penetración
+## Metodologías de pruebas de penetración
 
 Las pruebas de penetración pueden tener una amplia variedad de objetivos y metas dentro de su alcance. Por ello, ninguna prueba de penetración es igual a otra, y no existe una solución universal en cuanto a cómo un evaluador de penetración debe abordarla. 
 

@@ -3,7 +3,7 @@ layout: default
 title: Preparación EJPTv2
 ---
 
-# 🛠️ John the Ripper
+## 🛠️ John the Ripper
 
 John the Ripper es una de las herramientas más poderosas para la recuperación de contraseñas mediante ataques de fuerza bruta y diccionario. Es ampliamente utilizada en auditorías de seguridad y pruebas de penetración para descifrar hashes de contraseñas, claves privadas SSH (id_rsa) y diversos formatos de cifrado.
 

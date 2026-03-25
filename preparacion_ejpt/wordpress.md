@@ -3,7 +3,7 @@ layout: default
 title: Preparación EJPTv2
 ---
 
-# Wordpress
+## Wordpress
 
 WordPress es un sistema de gestión de contenido (CMS) de código abierto, gratuito y muy popular que permite crear y gestionar sitios web. Se utiliza principalmente para construir blogs, sitios web corporativos, tiendas en línea, y mucho más. Su facilidad de uso y la gran cantidad de temas y plugins disponibles lo convierten en una herramienta versátil y accesible para usuarios con diferentes niveles de experiencia.
 

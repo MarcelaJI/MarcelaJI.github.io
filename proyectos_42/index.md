@@ -3,7 +3,7 @@ layout: default
 title: Proyectos
 ---
 
-# Proyectos
+## Proyectos
 
 En esta sección subiré los proyectos que realicé en el campus de programación de 42 Madrid y proyectos propios de Ciberseguridad.
 

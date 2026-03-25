@@ -3,7 +3,7 @@ layout: default
 title: Direcciones IP
 ---
 
-# Cross-Site Scripting (XSS)
+## Cross-Site Scripting (XSS)
 
 Una vulnerabilidad XSS(Cross-Site Scripting) es un tipo de vulnerabilidad de seguridad informática que permite a un atacante ejecutar código malicioso en la página web de un usuario sin su conocimiento o consentimiento. Esta vulnerabilidad permite al atacante robar información personal, como nombres de usuario, contraseñas, y otros datos confidenciales.
 

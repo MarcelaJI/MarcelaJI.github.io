@@ -44,10 +44,6 @@
         -moz-osx-font-smoothing: grayscale;
       }
 
-      /* The layout already renders page.title above content. Hide duplicated Markdown H1. */
-      article.prose > h1:first-of-type {
-        display: none;
-      }
     </style>
   </head>
 
@@ -111,10 +107,6 @@
             <p class="mt-4 text-lg md:text-xl text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
               {{ site.description }}
             </p>
-          </section>
-        {% else %}
-          <section class="text-center pt-6 pb-10">
-            <h1 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white">{{ page_heading }}</h1>
           </section>
         {% endif %}
 

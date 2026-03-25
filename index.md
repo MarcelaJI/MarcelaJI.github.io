@@ -31,7 +31,6 @@ Aquí encontrarás:
 - [Artículos técnicos](articulos_tecnicos/)
 - [Apuntes eJPTv2](preparacion_ejpt/)
 - [Writeups de máquinas](writeups/)
-- [HTB CWES Notes](htb-cbbh-notes/)
 
 
 ---

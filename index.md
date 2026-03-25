@@ -27,7 +27,7 @@ Aquí encontrarás:
 ## Explora mi trabajo:
 
 - [Apuntes de hacking y pentesting](apuntes/)
-- [Proyectos de 42](proyectos_42/)
+- [Proyectos](proyectos_42/)
 - [Artículos técnicos](articulos_tecnicos/)
 - [Apuntes eJPTv2](preparacion_ejpt/)
 - [Writeups de máquinas](writeups/)

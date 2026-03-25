@@ -3,7 +3,7 @@ layout: default
 title: Preparación EJPTv2
 ---
 
-# Estos son mis apuntes para la preparación del eJPTv2:
+Estos son mis apuntes para la preparación del eJPTv2:
 
 - [Descubrimiento de Hosts](descubrimiento_de_hosts)
 - [Comandos de Red](comandos_de_red)

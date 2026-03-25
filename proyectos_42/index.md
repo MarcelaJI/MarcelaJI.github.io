@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Proyectos 42 Madrid
+title: Proyectos
 ---
 
 # Proyectos

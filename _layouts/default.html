@@ -49,7 +49,7 @@
 
   <body class="bg-background-light dark:bg-background-dark font-display text-gray-800 dark:text-gray-300 transition-colors duration-300">
     <div class="min-h-screen flex flex-col">
-      <header class="w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+      <header class="sticky top-0 z-50 w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-6 bg-background-light/95 dark:bg-background-dark/95 backdrop-blur border-b border-gray-300/70 dark:border-gray-700/70 relative">
         <nav class="flex justify-between items-center gap-4">
           <a
             class="text-xl font-bold text-gray-900 dark:text-white hover:text-primary dark:hover:text-primary transition-colors"
@@ -87,8 +87,8 @@
           </div>
         </nav>
 
-        <div id="mobile-menu" class="md:hidden hidden mt-4 pb-2 border-t border-gray-300 dark:border-gray-700">
-          <div class="pt-3 flex flex-col gap-3 text-sm">
+        <div id="mobile-menu" class="md:hidden hidden absolute left-4 right-4 top-full mt-2 rounded-lg border border-gray-300 dark:border-gray-700 bg-background-light dark:bg-surface-dark shadow-xl z-50">
+          <div class="p-4 flex flex-col gap-3 text-sm">
             <a class="text-primary hover:opacity-80 transition-opacity" href="{{ '/writeups/' | relative_url }}">Writeups</a>
             <a class="text-primary hover:opacity-80 transition-opacity" href="{{ '/proyectos_42/' | relative_url }}">Proyectos</a>
             <a class="text-primary hover:opacity-80 transition-opacity" href="{{ '/apuntes/' | relative_url }}">Apuntes</a>
@@ -97,6 +97,8 @@
           </div>
         </div>
       </header>
+
+      <div id="mobile-menu-backdrop" class="md:hidden hidden fixed inset-0 bg-black/35 z-40"></div>
 
       <main class="flex-grow w-full max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
         {% if page.url == '/' or page.url == '/index.html' %}
@@ -132,11 +134,41 @@
 
       const mobileMenuToggle = document.getElementById("mobile-menu-toggle");
       const mobileMenu = document.getElementById("mobile-menu");
-      if (mobileMenuToggle && mobileMenu) {
+      const mobileMenuBackdrop = document.getElementById("mobile-menu-backdrop");
+      if (mobileMenuToggle && mobileMenu && mobileMenuBackdrop) {
+        const closeMenu = () => {
+          mobileMenu.classList.add("hidden");
+          mobileMenuBackdrop.classList.add("hidden");
+          document.body.classList.remove("overflow-hidden");
+          mobileMenuToggle.setAttribute("aria-expanded", "false");
+        };
+
+        const openMenu = () => {
+          mobileMenu.classList.remove("hidden");
+          mobileMenuBackdrop.classList.remove("hidden");
+          document.body.classList.add("overflow-hidden");
+          mobileMenuToggle.setAttribute("aria-expanded", "true");
+        };
+
         mobileMenuToggle.addEventListener("click", () => {
           const isOpen = !mobileMenu.classList.contains("hidden");
-          mobileMenu.classList.toggle("hidden");
-          mobileMenuToggle.setAttribute("aria-expanded", String(!isOpen));
+          if (isOpen) {
+            closeMenu();
+            return;
+          }
+          openMenu();
+        });
+
+        mobileMenuBackdrop.addEventListener("click", closeMenu);
+
+        mobileMenu.querySelectorAll("a").forEach((link) => {
+          link.addEventListener("click", closeMenu);
+        });
+
+        window.addEventListener("resize", () => {
+          if (window.innerWidth >= 768) {
+            closeMenu();
+          }
         });
       }
     </script>

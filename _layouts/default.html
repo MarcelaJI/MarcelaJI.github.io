@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    {% assign page_heading = page.title | default: page.name | replace: '.md', '' | replace: '.html', '' | replace: '_', ' ' | replace: '-', ' ' | capitalize %}
+    <title>{% if page_heading %}{{ page_heading }} | {% endif %}{{ site.title }}</title>
 
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap"
@@ -113,7 +114,7 @@
           </section>
         {% else %}
           <section class="text-center pt-6 pb-10">
-            <h1 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white">{{ page.title }}</h1>
+            <h1 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white">{{ page_heading }}</h1>
           </section>
         {% endif %}
 

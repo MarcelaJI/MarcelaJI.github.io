@@ -8,3 +8,5 @@ title: Artículos Técnicos
 Guías, tutoriales y reflexiones sobre ciberseguridad, programación y tecnología.
 
 ---
+
+- [WannaCry](wannacry)

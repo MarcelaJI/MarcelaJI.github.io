@@ -9,7 +9,7 @@ title: Artículos Técnicos
 
 **Autor:** Marcela Jiménez  
 **Fecha de publicación:** 26 de marzo de 2026
-**Categoría:** Ciberseguridad / Malware
+**Categoría:** Ciberseguridad/Malware
 
 #### Introducción
 

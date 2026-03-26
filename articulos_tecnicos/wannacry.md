@@ -32,6 +32,7 @@ En este caso, los atacantes pedían 300 dólares en Bitcoin, duplicando la canti
 #### Impacto global del ataque
 
 El alcance de *WannaCry* fue masivo:
+
 - Más de 230.000 dispositivos infectados
 - Presente en más de 150 países 
 - Afectó a:
@@ -45,9 +46,11 @@ Las pérdidas totales se estiman en más de 4.000 millones de dólares, aunque l
 ---
 
 #### La clave técnica: *EternalBlue*
+
 El elemento más crítico del ataque fue el uso del exploit *EternalBlue*.
 
 ¿Qué es *EternalBlue*?
+
 *EternalBlue* es un exploit que aprovecha una vulnerabilidad en el protocolo:
 
 ✅*SMBv1* (Server Message Block) de Microsoft Windows
@@ -64,7 +67,7 @@ Y corregida mediante el parche:
 
 #### ¿Cómo funcionaba el ataque?
 
-1. Explotación de SMB
+- Explotación de SMB
 
 *WannaCry* utilizaba *EternalBlue* para enviar paquetes especialmente diseñados a sistemas vulnerables.
 
@@ -75,7 +78,7 @@ Esto permitía:
 
 ---
 
-2. Ejecución en Windows
+- Ejecución en Windows
 
 Una vez dentro del sistema, el malware:
 - Instalaba un backdoor (DoublePulsar)
@@ -84,7 +87,7 @@ Una vez dentro del sistema, el malware:
 
 ---
 
-3. Propagación automática
+- Propagación automática
 
 Aquí está la diferencia clave:
 
@@ -94,7 +97,7 @@ Se propagaba automáticamente a través de la red explotando la misma vulnerabil
 
 ---
 
-4. Cifrado de archivos
+- Cifrado de archivos
 
 El malware:
 - Cifraba archivos importantes (documentos, imágenes, bases de datos)
@@ -103,7 +106,7 @@ El malware:
 
 ---
 
-5. Pantalla de rescate
+- Pantalla de rescate
 
 Mostraba un mensaje indicando:
 
@@ -164,6 +167,7 @@ Eso detuvo la propagación del malware a nivel global.
 #### Evolución del ransomware tras *WannaCry*
 
 *WannaCry* marcó un punto de inflexión:
+
 - Aumento masico de ataques de ransomware
 - Aparición de modelos como:
 	- Ransomware-as-a-Service (RaaS)
@@ -179,19 +183,24 @@ Eso detuvo la propagación del malware a nivel global.
 
 *WannaCry* dejó varias enseñanzas fundamentales:
 
-1. Importancia de las actualizaciones
+- Importancia de las actualizaciones
+
 No aplicar parches puede tener consecuencias críticas.
 
-2. Segmentación de red
+- Segmentación de red
+
 Evita que un ataque se propague fácilmente.
 
-3. Desactivar SMBv1
+- Desactivar SMBv1
+
 Es un protocolo obsoleto e inseguro.
 
-4. Copias de seguridad
+- Copias de seguridad
+
 Permiten recuperar datos sin pagar rescates.
 
-5. Monitorización y respuesta
+- Monitorización y respuesta
+
 Detectar actividad anómala a tiempo es clave.
 
 ---

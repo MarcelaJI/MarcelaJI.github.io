@@ -7,9 +7,9 @@ title: Artículos Técnicos
 
 ### El ransomware que paralizó el mundo (análisis técnico completo)
 
-**Autor:** Marcela Jiménez  
-**Fecha de publicación:** 26 de marzo de 2026
-**Categoría:** Ciberseguridad/Malware
+- **Autor:** Marcela Jiménez  
+- **Fecha de publicación:** 26 de marzo de 2026
+- **Categoría:** Ciberseguridad/Malware
 
 #### Introducción
 

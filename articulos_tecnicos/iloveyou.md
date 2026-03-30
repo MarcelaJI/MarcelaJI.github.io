@@ -5,10 +5,10 @@ title: Artículos Técnicos
 
 ## ILOVEYOU 
 
-#### El gusano que explotó la ingeniería social a escala global
+### El gusano que explotó la ingeniería social a escala global
 
-**Autor:** Marcela Jiménez  
-**Fecha de publicación:** 26 de marzo de 2026
+- **Autor:** Marcela Jiménez  
+- **Fecha de publicación:** 26 de marzo de 2026
 #### Introducción
 
 El 4 de mayo del año 2000, el mundo presenció uno de los primeros ciberataques masivos de la historia moderna: el gusano conocido como *ILOVEYOU* virus.

@@ -5,7 +5,7 @@ title: Apuntes
 
 ## Uso de scripts y categorías en nmap para aplicar reconocimiento
 
-Una de las características más poderosas de **Nmap** es su capacidad para automatizar tareas utilizando **scripts personalizados**. Los scripts de Nmap permiten a los profesionales de seguridad automatizar las tareas de reconocimiento y descubrimiento en la red, además de obtener información valiosa sobre los sistemas y servicios que se están ejecutando en ellos. El parámetro **–script** de Nmap permite al usuario seleccionar un conjunto de scripts para ejecutar en un objetivo de escaneo específico.
+En Nmap podemos automatizar tareas utilizando scripts personalizados. El parámetro --script de Nmap nos permite seleccionar un conjunto de scripts para ejecutar en un objetivo de escaneo específico.
 
 Existen diferentes categorías de scripts disponibles en Nmap, cada una diseñada para realizar una tarea específica. Algunas de las categorías más comunes incluyen:
 
@@ -15,32 +15,63 @@ Existen diferentes categorías de scripts disponibles en Nmap, cada una diseñad
 - **intrusive**: Esta categoría incluye scripts más invasivos que pueden ser detectados fácilmente por un sistema de detección de intrusos o un Firewall, pero que pueden proporcionar información valiosa sobre vulnerabilidades y debilidades en la red.
 - **vuln**: Esta categoría se enfoca específicamente en la detección de vulnerabilidades y debilidades en los sistemas y servicios que se están ejecutando en la red.
 
-En conclusión, el uso de scripts y categorías en Nmap es una forma efectiva de automatizar tareas de reconocimiento y descubrimiento en la red. El parámetro **–script** permite al usuario seleccionar un conjunto de scripts personalizados para ejecutar en un objetivo de escaneo específico, mientras que las diferentes categorías disponibles en Nmap se enfocan en realizar tareas específicas para obtener información valiosa sobre la red.
+---
 
-Podemos ejecutar por ejemplo:
-
-```bash
-nmap -p22 192.168.111.1 -sCV
-```
-
-podemos buscar scripts con locate .nse
-
-Para buscar según la categoría podemos ejecutar:
+Podemos compactar estos dos parámetros que es justamente lo mismo como si lanzáramos -sC y -sV por separado 
 
 ```bash
-locate .nse | xargs grep "categories"
+nmap -p22 -sCV 192.168.211.1
 ```
 
-Para ordenar esas categorías y además que nos muestre cuantas hay ejecutamos:
+Estos scripts están en los scripts básicos que suele lanzar -sC automáticamente 
 
 ```bash
-locate .nse | xargs grep "categories" | grep -oP '".*?"' | sort -u | wc -l
+locate ftp-anon.nse
+locate http-robots.txt.nse
 ```
 
-Podemos combinar categorías y así es menos agresivo, ejecutando:
+---
+
+Podemos filtrar por categorías y así buscar scripts:
+
+```bash
+locate .nse | xargs grep "categories" | grep -oP '".*?"' | sort -u
+```
+
+Podemos englobar dos categorías tal que así:
 
 ```bash
 nmap -p22 192.168.111.1 --script="vuln and safe"
 ```
 
+Así solo lanzamos scripts que pertenecen a la categoría *vuln and safe* simultáneamente
+
 ---
+
+Con:
+
+```bash 
+lsof -i:80
+```
+
+Puedo validar si ese puerto está en uso 
+
+Para montarme un servidor lo hacemos tal que así:
+
+```bash
+python3 -m http.server 80
+```
+
+Para saber el PID que es el identificador de este proceso
+
+```bash 
+lsof -i:80
+pwdx 1355887
+```
+
+Podemos utilizar el siguiente script para hacer fuzzing en el servidor que nos acabamos de montar:
+
+```bash
+nmap -p80 192.168.111.42 --script http-enum
+```
+

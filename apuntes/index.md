@@ -18,6 +18,7 @@ Aquí encontrarás mis apuntes de pentesting:
 - [NMAP](nmap)
 - [Evasión de Firewalls](evasion_de_firewalls)
 - [Uso de Scripts en NMAP](scripts_en_nmap)
+- [Enumeración de puertos con descriptores de archivos](enumerar_puertos_descriptores)
 - [SQL Injection](sql_injection)
 - [Permisos SUID](permisos_suid)
 - [Enumeración de subdominios](enumeracion_de_subdominios)

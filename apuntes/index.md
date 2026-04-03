@@ -19,6 +19,7 @@ Aquí encontrarás mis apuntes de pentesting:
 - [Evasión de Firewalls](evasion_de_firewalls)
 - [Uso de Scripts en NMAP](scripts_en_nmap)
 - [Enumeración de puertos con descriptores de archivos](enumerar_puertos_descriptores)
+- [Descubrimiento de correos electrónicos](correo)
 - [Reconocimiento de imágenes](imagenes)
 - [Enumeración de subdominios](enumeracion_de_subdominios)
 

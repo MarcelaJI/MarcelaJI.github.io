@@ -23,6 +23,6 @@ Aquí encontrarás mis apuntes de pentesting:
 - [Reconocimiento de imágenes](imagenes)
 - [Enumeración de subdominios](enumeracion_de_subdominios)
 - [Identificación de las tecnologías de una página web](tecnologias)
-
+- [Fuzzing y enumeración de archivos](fuzzing)
 
 ---

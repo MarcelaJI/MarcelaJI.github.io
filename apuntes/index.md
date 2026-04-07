@@ -22,6 +22,7 @@ Aquí encontrarás mis apuntes de pentesting:
 - [Descubrimiento de correos electrónicos](correo)
 - [Reconocimiento de imágenes](imagenes)
 - [Enumeración de subdominios](enumeracion_de_subdominios)
+- [Identificación de las tecnologías de una página web](tecnologias)
 
 
 ---

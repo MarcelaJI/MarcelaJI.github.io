@@ -31,6 +31,8 @@ Haz clic para ver cada writeup directamente en GitHub:
 
 - [Library](https://github.com/MarcelaJI/DockerLabs/blob/main/Library/README.md)
 
+- [Psycho](https://github.com/MarcelaJI/DockerLabs/blob/main/Psyco/README.md)
+
 ---
 
 ## The Hackers Labs:

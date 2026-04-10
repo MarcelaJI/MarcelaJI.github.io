@@ -40,3 +40,10 @@ Haz clic para ver cada writeup directamente en GitHub:
 [Fruits](https://github.com/MarcelaJI/The-Hackers-Labs/blob/main/Fruits/README.md)
 
 ---
+
+## Hack The Box:
+
+[NIBBLES]()
+
+---
+

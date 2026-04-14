@@ -33,6 +33,8 @@ Haz clic para ver cada writeup directamente en GitHub:
 
 - [Psycho](https://github.com/MarcelaJI/DockerLabs/blob/main/Psyco/README.md)
 
+- [ConsoleLog](https://github.com/MarcelaJI/DockerLabs/blob/main/consolelog/README.md)
+
 ---
 
 ## The Hackers Labs:

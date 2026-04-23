@@ -34,7 +34,7 @@ title: Inicio
 	<div class="terminal-body text-[1.07rem] leading-relaxed">
 		<div>
 			<span class="prompt">marcela@kali:~$</span>
-			<span class="command"> cat /root/loot.txt</span>
+			<span class="command"> cat /root/flag.txt</span>
 		</div>
 		<div class="terminal-copy">
 			<p class="m-0"><span class="neon-text">¡Hola! Soy Marcela</span></p>

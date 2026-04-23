@@ -5,7 +5,7 @@ title: Inicio
 
 <section id="whoami" class="text-center pt-3 sm:pt-6 pb-8 sm:pb-10">
 	<div class="mx-auto mb-5 w-[170px] h-[170px] rounded-full p-1 neon-border" style="box-shadow: 0 0 26px rgba(255, 43, 62, 0.45);">
-		<img src="assets/img/imarcej.jpeg" alt="foto de Marcela" class="w-full h-full rounded-full object-cover" style="object-position: center 24%;" />
+		<img src="assets/img/imarcej.jpeg" alt="foto de Marcela" class="w-full h-full rounded-full object-cover" style="object-position: center 12%; transform: scale(1.06);" />
 	</div>
 
 	<h1 class="text-5xl sm:text-6xl font-display font-bold tracking-[0.18em] neon-text m-0">MARCELA</h1>
@@ -28,7 +28,7 @@ title: Inicio
 	<div class="terminal-body text-[1.07rem] leading-relaxed">
 		<div>
 			<span class="prompt">marcela@kali:~$</span>
-			<span class="command"> cat /opt/pentest/targets/scope.md</span>
+			<span class="command"> cat /root/loot.txt</span>
 		</div>
 		<div class="terminal-copy">
 			<p class="m-0"><span class="neon-text">¡Hola! Soy Marcela</span></p>

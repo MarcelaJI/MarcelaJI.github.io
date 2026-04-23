@@ -8,7 +8,7 @@ title: Inicio
 	<img src="assets/img/imarcej.jpeg"
      alt="foto de Marcela"
      class="w-full h-full rounded-full object-cover"
-     style="object-position: center 30%;" />
+     style="object-position: center 20%;" />
 	</div>
 
 	<h1 class="text-5xl sm:text-6xl font-display font-bold tracking-[0.18em] neon-text m-0">MARCELA</h1>

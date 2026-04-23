@@ -9,3 +9,6 @@ vendor/bundle/
 
 # Sass cache
 .sass-cache/
+
+# Local preview helper
+preview-theme.html

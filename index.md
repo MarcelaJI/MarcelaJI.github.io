@@ -41,13 +41,6 @@ title: Inicio
 			<p class="mt-2 mb-0">Bienvenido/a a mi espacio personal en la web.</p>
 			<p class="mt-3 mb-0">Soy una apasionada de la ciberseguridad, con especial interés en el red teaming, el pentesting y la seguridad ofensiva. Me motiva entender cómo funcionan los sistemas desde dentro, identificar vulnerabilidades y contribuir a que la tecnología sea más segura para las personas.</p>
 			<p class="mt-3 mb-0">Cuento con la certificación eJPTv2 y actualmente continúo formándome de manera autodidacta, practicando y mejorando mis habilidades a través de plataformas como Hack The Box y otros entornos de aprendizaje práctico.</p>
-			<p class="mt-3 mb-0">Aquí encontrarás:</p>
-			<ul class="mt-2 mb-0 space-y-1">
-				<li>-Técnicas ofensivas y metodologías de red team</li>
-				<li>-Análisis técnicos y reflexiones sobre ciberseguridad</li>
-				<li>-Writeups y aprendizaje práctico en entornos reales</li>
-				<li>-Notas personales ocasionales, porque el lado humano de la tecnología también importa</li>
-			</ul>
 		</div>
 	</div>
 </section>

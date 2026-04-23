@@ -7,7 +7,7 @@
     <title>{% if page_heading %}{{ page_heading }} | {% endif %}{{ site.title }}</title>
 
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Rajdhani:wght@500;600;700&display=swap"
       rel="stylesheet"
     />
     <link
@@ -22,13 +22,16 @@
         theme: {
           extend: {
             colors: {
-              primary: "#22c55e",
-              "background-light": "#f3f4f6",
-              "background-dark": "#111827",
-              "surface-dark": "#1f2937",
+              primary: "#ff2b3e",
+              "primary-soft": "#ff5b6a",
+              "background-dark": "#070b14",
+              "surface-dark": "#101a2b",
+              "surface-dark-2": "#0d1524",
+              accent: "#ff8b95",
             },
             fontFamily: {
-              display: ["'Roboto Mono'", "monospace"],
+              display: ["'Rajdhani'", "sans-serif"],
+              mono: ["'Share Tech Mono'", "monospace"],
             },
             borderRadius: {
               DEFAULT: "0.5rem",
@@ -39,168 +42,272 @@
     </script>
 
     <style>
+      :root {
+        --bg-1: #040812;
+        --bg-2: #0b1324;
+        --surface: #101a2b;
+        --surface-2: #0d1524;
+        --line: rgba(255, 43, 62, 0.35);
+        --line-soft: rgba(255, 43, 62, 0.2);
+        --text-1: #f7f8fb;
+        --text-2: #abb2c0;
+        --neon: #ff2b3e;
+        --neon-soft: #ff5b6a;
+      }
+
       body {
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
+        background:
+          radial-gradient(circle at 15% 10%, rgba(255, 43, 62, 0.14), transparent 45%),
+          radial-gradient(circle at 85% 2%, rgba(255, 139, 149, 0.12), transparent 35%),
+          linear-gradient(180deg, var(--bg-2) 0%, var(--bg-1) 100%);
+        color: var(--text-1);
+        font-family: "Share Tech Mono", monospace;
       }
 
-      /* Responsive heading sizes for mobile */
-      .prose h2 {
-        font-size: 1.5rem;
+      body::before {
+        content: "";
+        position: fixed;
+        inset: 0;
+        pointer-events: none;
+        background-image:
+          linear-gradient(rgba(255, 43, 62, 0.03) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(255, 43, 62, 0.03) 1px, transparent 1px);
+        background-size: 22px 22px;
+        opacity: 0.45;
+        z-index: 0;
       }
 
-      @media (min-width: 640px) {
-        .prose h2 {
-          font-size: 1.875rem;
+      .site-wrap {
+        position: relative;
+        z-index: 1;
+      }
+
+      .glass-panel {
+        background: linear-gradient(180deg, rgba(18, 28, 44, 0.92), rgba(9, 15, 27, 0.9));
+        border: 1px solid var(--line-soft);
+        box-shadow:
+          0 0 0 1px rgba(255, 43, 62, 0.05) inset,
+          0 24px 50px rgba(0, 0, 0, 0.45),
+          0 0 32px rgba(255, 43, 62, 0.12);
+        border-radius: 16px;
+      }
+
+      .neon-text {
+        color: var(--neon-soft);
+        text-shadow: 0 0 8px rgba(255, 43, 62, 0.45);
+      }
+
+      .neon-border {
+        border: 1px solid var(--line);
+        box-shadow:
+          0 0 14px rgba(255, 43, 62, 0.25),
+          0 0 0 1px rgba(255, 43, 62, 0.15) inset;
+      }
+
+      .top-nav-link {
+        border: 1px solid transparent;
+        border-radius: 10px;
+        padding: 0.45rem 0.75rem;
+        transition: all 0.25s ease;
+        color: var(--text-2);
+      }
+
+      .top-nav-link:hover,
+      .top-nav-link.active {
+        color: #fff;
+        border-color: var(--line);
+        box-shadow: 0 0 16px rgba(255, 43, 62, 0.16);
+        background: rgba(255, 43, 62, 0.1);
+      }
+
+      .home-main {
+        animation: riseIn 0.8s ease both;
+      }
+
+      @keyframes riseIn {
+        from {
+          transform: translateY(10px);
+          opacity: 0;
+        }
+        to {
+          transform: translateY(0);
+          opacity: 1;
         }
       }
 
-      @media (min-width: 768px) {
-        .prose h2 {
-          font-size: 2.25rem;
-        }
+      .prose {
+        color: var(--text-2);
+      }
+
+      .prose :where(h1, h2, h3, h4) {
+        color: var(--text-1);
+        font-family: "Rajdhani", sans-serif;
+        letter-spacing: 0.04em;
+      }
+
+      .prose a {
+        color: #ff6a76;
+        text-decoration: none;
+      }
+
+      .prose a:hover {
+        color: #ff9ea6;
+      }
+
+      .prose hr {
+        border-color: rgba(255, 43, 62, 0.25);
+      }
+
+      .terminal-shell {
+        background: linear-gradient(180deg, #0d1524, #070c16);
+        border: 1px solid var(--line-soft);
+        border-radius: 14px;
+        overflow: hidden;
+        box-shadow: 0 0 26px rgba(255, 43, 62, 0.11);
+      }
+
+      .terminal-head {
+        padding: 0.8rem 1rem;
+        border-bottom: 1px solid rgba(255, 43, 62, 0.2);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: rgba(255, 43, 62, 0.04);
+      }
+
+      .dot {
+        width: 11px;
+        height: 11px;
+        border-radius: 50%;
+      }
+
+      .terminal-body {
+        padding: 1.25rem;
+        color: #d7deeb;
+      }
+
+      .terminal-body .prompt {
+        color: #ff6f7c;
+      }
+
+      .terminal-body .command {
+        color: #f4f5f7;
+      }
+
+      .terminal-copy {
+        border-left: 2px solid rgba(255, 43, 62, 0.65);
+        padding-left: 1rem;
+        margin-top: 1rem;
+      }
+
+      .tag-btn {
+        border: 1px solid var(--line);
+        background: rgba(255, 43, 62, 0.06);
+        border-radius: 12px;
+        color: #ffd1d6;
+        padding: 0.5rem 0.85rem;
+        transition: all 0.2s ease;
+      }
+
+      .tag-btn:hover {
+        background: rgba(255, 43, 62, 0.16);
+        box-shadow: 0 0 18px rgba(255, 43, 62, 0.2);
+      }
+
+      .social-icon {
+        width: 22px;
+        height: 22px;
+        opacity: 0.8;
+        transition: opacity 0.2s ease, transform 0.2s ease;
+      }
+
+      .social-icon:hover {
+        opacity: 1;
+        transform: translateY(-1px);
       }
     </style>
   </head>
 
-  <body class="bg-background-light dark:bg-background-dark font-display text-gray-800 dark:text-gray-300 transition-colors duration-300">
-    <div class="min-h-screen flex flex-col">
-      <header class="sticky top-0 z-50 w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-6 bg-background-light/95 dark:bg-background-dark/95 backdrop-blur border-b border-gray-300/70 dark:border-gray-700/70 relative">
-        <nav class="flex justify-between items-center gap-4">
-          <a
-            class="text-xl font-bold text-gray-900 dark:text-white hover:text-primary dark:hover:text-primary transition-colors"
-            href="{{ '/' | relative_url }}"
-          >
-            ./Marcela's Hackblog
-          </a>
+  <body class="font-mono text-gray-200 transition-colors duration-300">
+    <div class="site-wrap min-h-screen flex flex-col">
+      <header class="sticky top-0 z-50 w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-4 pb-5 backdrop-blur-md relative">
+        <div class="glass-panel px-4 sm:px-6 py-4">
+          <div class="flex items-center justify-between gap-4 mb-3">
+            <a
+              class="text-lg sm:text-xl font-display font-bold tracking-wider text-white hover:text-primary-soft transition-colors"
+              href="{{ '/' | relative_url }}"
+            >
+              ./Marcela's Hackblog
+            </a>
 
-          <div class="flex items-center space-x-4 md:space-x-8">
-            <div class="hidden md:flex items-center space-x-6 text-sm">
-              <a class="text-primary hover:opacity-80 transition-opacity" href="{{ '/writeups/' | relative_url }}">Writeups</a>
-              <a class="text-primary hover:opacity-80 transition-opacity" href="{{ '/proyectos_42/' | relative_url }}">Proyectos</a>
-              <a class="text-primary hover:opacity-80 transition-opacity" href="{{ '/apuntes/' | relative_url }}">Apuntes</a>
-              <a class="text-primary hover:opacity-80 transition-opacity" href="{{ '/articulos_tecnicos/' | relative_url }}">Artículos</a>
-              <a class="text-primary hover:opacity-80 transition-opacity" href="{{ '/preparacion_ejpt/' | relative_url }}">eJPT</a>
+            <div class="flex items-center gap-4">
+              <a href="https://github.com/MarcelaJi" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="text-gray-300 hover:text-primary-soft">
+                <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M12 .5A12 12 0 0 0 8.2 23.9c.6.1.8-.3.8-.6v-2.1c-3.3.7-4-1.4-4-1.4-.5-1.3-1.2-1.6-1.2-1.6-1-.7.1-.7.1-.7 1.1.1 1.7 1.1 1.7 1.1 1 .1 1.5-.4 1.9-.8.1-.7.4-1.2.7-1.5-2.6-.3-5.4-1.3-5.4-5.8 0-1.3.5-2.3 1.1-3.2-.1-.3-.5-1.5.1-3.1 0 0 .9-.3 3.2 1.2a11 11 0 0 1 5.8 0c2.2-1.5 3.2-1.2 3.2-1.2.6 1.6.2 2.8.1 3.1.7.9 1.1 1.9 1.1 3.2 0 4.5-2.8 5.5-5.4 5.8.4.3.8 1 .8 2v3c0 .3.2.7.8.6A12 12 0 0 0 12 .5Z" />
+                </svg>
+              </a>
+              <a href="https://linkedin.com/in/marcela-jimenez-/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="text-gray-300 hover:text-primary-soft">
+                <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M4.98 3.5C4.98 4.9 3.87 6 2.5 6A2.5 2.5 0 0 1 0 3.5 2.5 2.5 0 0 1 2.5 1 2.5 2.5 0 0 1 4.98 3.5ZM.5 8h4V24h-4V8Zm7 0h3.8v2.2h.1c.5-1 1.8-2.3 3.8-2.3 4.1 0 4.9 2.7 4.9 6.1V24h-4v-8.9c0-2.1 0-4.8-3-4.8-3 0-3.4 2.3-3.4 4.7V24h-4V8Z" />
+                </svg>
+              </a>
             </div>
-
-            <button
-              id="mobile-menu-toggle"
-              class="md:hidden p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary focus:ring-offset-background-light dark:focus:ring-offset-background-dark"
-              aria-label="Abrir menú"
-              aria-expanded="false"
-            >
-              <span class="material-icons text-gray-700 dark:text-gray-300">menu</span>
-            </button>
-
-            <button
-              id="theme-toggle"
-              class="p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary focus:ring-offset-background-light dark:focus:ring-offset-background-dark"
-              aria-label="Cambiar tema"
-            >
-              <span class="material-icons text-gray-700 dark:text-gray-300 block dark:hidden">dark_mode</span>
-              <span class="material-icons text-gray-700 dark:text-gray-300 hidden dark:block">light_mode</span>
-            </button>
-          </div>
-        </nav>
-
-      </header>
-
-      <div id="mobile-menu" class="md:hidden hidden fixed inset-0 z-[70] bg-background-light dark:bg-background-dark">
-        <div class="h-full w-full px-8 pt-8 pb-10 overflow-y-auto">
-          <div class="max-w-6xl mx-auto flex justify-end">
-            <button
-              id="mobile-menu-close"
-              class="p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-primary"
-              aria-label="Cerrar menú"
-            >
-              <span class="material-icons text-gray-700 dark:text-gray-300">close</span>
-            </button>
           </div>
 
-          <nav class="max-w-6xl mx-auto mt-10 flex flex-col gap-6 text-2xl">
-            <a class="text-primary hover:opacity-80 transition-opacity" href="{{ '/writeups/' | relative_url }}">Writeups</a>
-            <a class="text-primary hover:opacity-80 transition-opacity" href="{{ '/proyectos_42/' | relative_url }}">Proyectos</a>
-            <a class="text-primary hover:opacity-80 transition-opacity" href="{{ '/apuntes/' | relative_url }}">Apuntes</a>
-            <a class="text-primary hover:opacity-80 transition-opacity" href="{{ '/articulos_tecnicos/' | relative_url }}">Artículos</a>
-            <a class="text-primary hover:opacity-80 transition-opacity" href="{{ '/preparacion_ejpt/' | relative_url }}">eJPT</a>
+          <div class="mb-4">
+            <div class="relative">
+              <span class="material-icons absolute left-3 top-1/2 -translate-y-1/2 text-gray-500">search</span>
+              <input
+                id="quick-filter"
+                type="text"
+                placeholder="Buscar por tags..."
+                class="w-full md:w-[420px] bg-surface-dark-2/80 border border-primary/40 rounded-xl pl-11 pr-4 py-3 text-gray-200 placeholder:text-gray-500 focus:outline-none focus:ring-2 focus:ring-primary/60"
+              />
+            </div>
+          </div>
+
+          <nav class="flex flex-wrap items-center gap-2 text-sm sm:text-base">
+            <a class="top-nav-link" href="{{ '/writeups/' | relative_url }}">Writeups</a>
+            <a class="top-nav-link" href="{{ '/proyectos_42/' | relative_url }}">Proyectos</a>
+            <a class="top-nav-link" href="{{ '/apuntes/' | relative_url }}">Apuntes</a>
+            <a class="top-nav-link" href="{{ '/articulos_tecnicos/' | relative_url }}">Articulos</a>
+            <a class="top-nav-link" href="{{ '/preparacion_ejpt/' | relative_url }}">eJPT</a>
           </nav>
         </div>
-      </div>
+      </header>
 
-      <main class="flex-grow w-full max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
+      <main class="flex-grow w-full max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pb-16 home-main">
         {% if page.url == '/' or page.url == '/index.html' %}
-          <section class="text-center py-10 sm:py-14">
-            <p class="text-lg md:text-xl text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-              {{ site.description }}
-            </p>
+          <article class="prose prose-lg max-w-none prose-invert">
+            {{ content }}
+          </article>
+        {% else %}
+          <section class="glass-panel p-5 sm:p-8">
+            <article class="prose prose-lg max-w-none prose-invert">
+              {{ content }}
+            </article>
           </section>
         {% endif %}
-
-        <article class="prose prose-lg dark:prose-invert max-w-none prose-a:text-primary hover:prose-a:opacity-80 prose-headings:text-gray-900 dark:prose-headings:text-white">
-          {{ content }}
-        </article>
       </main>
 
-      <footer class="w-full bg-background-light dark:bg-background-dark py-6 mt-auto">
-        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-gray-500 dark:text-gray-400 text-sm">
+      <footer class="w-full py-6 mt-auto">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-gray-500 text-sm">
           <p>© {{ 'now' | date: '%Y' }} {{ site.author }}. All Rights Reserved.</p>
         </div>
       </footer>
     </div>
 
     <script>
-      const themeToggle = document.getElementById("theme-toggle");
-      if (themeToggle) {
-        themeToggle.addEventListener("click", () => {
-          document.documentElement.classList.toggle("dark");
-        });
-      }
-
-      const mobileMenuToggle = document.getElementById("mobile-menu-toggle");
-      const mobileMenu = document.getElementById("mobile-menu");
-      const mobileMenuClose = document.getElementById("mobile-menu-close");
-      if (mobileMenuToggle && mobileMenu) {
-        const closeMenu = () => {
-          mobileMenu.classList.add("hidden");
-          document.body.classList.remove("overflow-hidden");
-          document.documentElement.classList.remove("overflow-hidden");
-          mobileMenuToggle.setAttribute("aria-expanded", "false");
-        };
-
-        const openMenu = () => {
-          mobileMenu.classList.remove("hidden");
-          document.body.classList.add("overflow-hidden");
-          document.documentElement.classList.add("overflow-hidden");
-          mobileMenuToggle.setAttribute("aria-expanded", "true");
-        };
-
-        mobileMenuToggle.addEventListener("click", () => {
-          const isOpen = !mobileMenu.classList.contains("hidden");
-          if (isOpen) {
-            closeMenu();
-            return;
-          }
-          openMenu();
-        });
-
-        mobileMenu.querySelectorAll("a").forEach((link) => {
-          link.addEventListener("click", closeMenu);
-        });
-
-        if (mobileMenuClose) {
-          mobileMenuClose.addEventListener("click", closeMenu);
-        }
-
-        window.addEventListener("keydown", (event) => {
-          if (event.key === "Escape") {
-            closeMenu();
-          }
-        });
-
-        window.addEventListener("resize", () => {
-          if (window.innerWidth >= 768) {
-            closeMenu();
-          }
+      const filterInput = document.getElementById("quick-filter");
+      if (filterInput) {
+        filterInput.addEventListener("input", () => {
+          const query = filterInput.value.trim().toLowerCase();
+          document.querySelectorAll("[data-tag]").forEach((item) => {
+            const tags = (item.getAttribute("data-tag") || "").toLowerCase();
+            item.style.display = tags.includes(query) ? "" : "none";
+          });
         });
       }
     </script>

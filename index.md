@@ -14,7 +14,7 @@ title: Inicio
          
   </div>
 
-	<h1 class="text-5xl sm:text-6xl font-display font-bold tracking-[0.18em] neon-text m-0">MARCELA</h1>
+	<h1 class="text-3xl sm:text-6xl font-display font-bold tracking-[0.08em] sm:tracking-[0.18em] neon-text m-0">Marcela's Blog</h1>
 	<p class="mt-3 text-xl sm:text-2xl tracking-[0.16em] text-gray-200">Red Team | Pentesting</p>
 
 	<div class="inline-block mt-6 px-5 py-2 rounded-xl neon-border bg-red-500/10">

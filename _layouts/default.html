@@ -42,6 +42,12 @@
     </script>
 
     <style>
+      html,
+      body {
+        background-color: #040812;
+        margin: 0;
+      }
+
       :root {
         --bg-1: #040812;
         --bg-2: #0b1324;
@@ -109,9 +115,24 @@
       .top-nav-link {
         border: 1px solid transparent;
         border-radius: 10px;
-        padding: 0.45rem 0.75rem;
+        padding: 0.28rem 0.42rem;
         transition: all 0.25s ease;
         color: var(--text-2);
+      }
+
+      @media (min-width: 640px) {
+        .top-nav-link {
+          padding: 0.45rem 0.75rem;
+        }
+      }
+
+      .menu-scroll {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+
+      .menu-scroll::-webkit-scrollbar {
+        display: none;
       }
 
       .top-nav-link:hover,
@@ -268,12 +289,12 @@
             </div>
           </div>
 
-          <nav class="flex flex-wrap items-center gap-2 text-sm sm:text-base">
-            <a class="top-nav-link" href="{{ '/writeups/' | relative_url }}">Writeups</a>
-            <a class="top-nav-link" href="{{ '/proyectos_42/' | relative_url }}">Proyectos</a>
-            <a class="top-nav-link" href="{{ '/apuntes/' | relative_url }}">Apuntes</a>
-            <a class="top-nav-link" href="{{ '/articulos_tecnicos/' | relative_url }}">Articulos</a>
-            <a class="top-nav-link" href="{{ '/preparacion_ejpt/' | relative_url }}">eJPT</a>
+          <nav class="menu-scroll flex flex-nowrap items-center justify-between sm:justify-start gap-1 sm:gap-2 text-[0.86rem] sm:text-base overflow-x-auto">
+            <a class="top-nav-link shrink-0" href="{{ '/writeups/' | relative_url }}">Writeups</a>
+            <a class="top-nav-link shrink-0" href="{{ '/proyectos_42/' | relative_url }}">Proyectos</a>
+            <a class="top-nav-link shrink-0" href="{{ '/apuntes/' | relative_url }}">Apuntes</a>
+            <a class="top-nav-link shrink-0" href="{{ '/articulos_tecnicos/' | relative_url }}">Articulos</a>
+            <a class="top-nav-link shrink-0" href="{{ '/preparacion_ejpt/' | relative_url }}">eJPT</a>
           </nav>
         </div>
       </header>

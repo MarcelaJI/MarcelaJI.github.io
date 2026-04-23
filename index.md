@@ -10,7 +10,7 @@ title: Inicio
     <img src="assets/img/imarcej.jpeg"
          alt="foto de Marcela"
          class="w-full h-full object-cover"
-         style="object-position: center 20%;" />
+         style="object-position: center 15%;" />
          
   </div>
 

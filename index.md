@@ -4,15 +4,14 @@ title: Inicio
 ---
 
 <section id="whoami" class="text-center pt-3 sm:pt-6 pb-8 sm:pb-10">
-  <div class="mx-auto mb-5 w-[170px] h-[170px] rounded-full overflow-hidden neon-border"
-       style="box-shadow: 0 0 26px rgba(255, 43, 62, 0.45);">
-    
+    <div class="mx-auto mb-5 w-[170px] h-[170px] rounded-full overflow-hidden neon-border bg-gray-200"
+     style="box-shadow: 0 0 26px rgba(255, 43, 62, 0.45);">
+  
     <img src="assets/img/imarcej.jpeg"
-         alt="foto de Marcela"
-         class="w-full h-full object-cover"
-         style="object-position: 50% 20%;" />
-         
-  </div>
+       alt="foto de Marcela"
+       class="w-full h-full object-contain" />
+       
+    </div>
 
 	<h1 class="text-5xl sm:text-6xl font-display font-bold tracking-[0.18em] neon-text m-0">MARCELA</h1>
 	<p class="mt-3 text-xl sm:text-2xl tracking-[0.16em] text-gray-200">Red Team | Pentesting</p>

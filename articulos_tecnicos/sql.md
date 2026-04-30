@@ -8,7 +8,6 @@ title: Artículos Técnicos
 ### El gusano que colapsó Internet en minutos (análisis técnico completo)
 
 - **Autor:** Marcela Jimenez
-
 - **Fecha de publicación:** 30 de abril de 2026
 
 ---

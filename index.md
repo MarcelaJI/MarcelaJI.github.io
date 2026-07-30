@@ -53,6 +53,7 @@ title: Inicio
 		<a data-tag="articulos tecnicos seguridad" class="tag-btn" href="articulos_tecnicos/">Artículos técnicos</a>
 		<a data-tag="ejpt certificacion certs" class="tag-btn" href="preparacion_ejpt/">Apuntes eJPTv2</a>
 		<a data-tag="writeups ctf maquinas" class="tag-btn sm:col-span-2" href="writeups/">Writeups de máquinas</a>
+		<a data-tag="proyectos personales automatizacion" class="tag-btn sm:col-span-2" href="proyectos_personales/">Proyectos personales</a>
 	</div>
 </section>
 

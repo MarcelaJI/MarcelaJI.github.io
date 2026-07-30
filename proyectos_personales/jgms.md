@@ -28,7 +28,7 @@ title: JGMS — Automatización Empresarial
 
 ## El Problema
 
-<section class="glass-panel p-5 sm:p-7 mb-8">
+<section class="glass-panel p-5 sm:p-7 mb-8" markdown="1">
 
 El proceso administrativo semanal de la empresa seguía un flujo completamente manual centrado en archivos Excel. Cada semana, un administrador debía:
 
@@ -52,28 +52,28 @@ El proceso administrativo semanal de la empresa seguía un flujo completamente m
 
 <div class="glass-panel p-4">
 
-**🔴 Errores humanos frecuentes**  
+<strong>🔴 Errores humanos frecuentes</strong><br>
 Copiar horas manualmente entre documentos provocaba errores de transcripción. Un dígito mal puesto podía generar una factura incorrecta, un pago equivocado o una deducción mal calculada.
 
 </div>
 
 <div class="glass-panel p-4">
 
-**🔴 Información dispersa**  
+<strong>🔴 Información dispersa</strong><br>
 Los datos del negocio vivían en múltiples archivos Excel independientes: pagos semanales, deducciones, facturas, resúmenes mensuales. No existía una fuente centralizada de verdad.
 
 </div>
 
 <div class="glass-panel p-4">
 
-**🔴 Tiempo excesivo**  
+<strong>🔴 Tiempo excesivo</strong><br>
 Completar el ciclo semanal (horas → factura → PDF → archivo → Excel → correo) tomaba horas de trabajo manual repetitivo. Cada semana era igual.
 
 </div>
 
 <div class="glass-panel p-4">
 
-**🔴 Sin trazabilidad**  
+<strong>🔴 Sin trazabilidad</strong><br>
 No había registro de quién hizo qué ni cuándo. Si una factura se enviaba dos veces o se olvidaba una semana, no había forma de detectarlo sistemáticamente.
 
 </div>
@@ -84,7 +84,7 @@ No había registro de quién hizo qué ni cuándo. Si una factura se enviaba dos
 
 ## La Solución
 
-<section class="glass-panel p-5 sm:p-7 mb-8">
+<section class="glass-panel p-5 sm:p-7 mb-8" markdown="1">
 
 ### Una plataforma, un botón
 
@@ -404,7 +404,7 @@ Como profesional de ciberseguridad, la seguridad fue una prioridad desde el dise
 
 <section class="glass-panel p-5 sm:p-7 mb-8">
 
-Este proyecto fue desarrollado utilizando un flujo de trabajo de **desarrollo asistido por inteligencia artificial** con supervisión humana en cada etapa:
+Este proyecto fue desarrollado utilizando un flujo de trabajo de <strong>desarrollo asistido por inteligencia artificial</strong> con supervisión humana en cada etapa:
 
 <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-4 text-sm">
 <div class="border border-red-900/30 rounded-lg p-3 text-center">

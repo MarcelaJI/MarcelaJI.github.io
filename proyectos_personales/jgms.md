@@ -6,7 +6,7 @@ title: JGMS — Automatización Empresarial
 <div class="text-center mb-10">
   <p class="text-sm tracking-[0.2em] text-gray-500 mb-1">PROYECTO PERSONAL</p>
   <h1 class="text-3xl sm:text-5xl font-display font-bold tracking-wide neon-text m-0">JGMS — Automatización Empresarial</h1>
-  <p class="mt-3 text-lg sm:text-xl text-gray-300 max-w-2xl mx-auto">Plataforma web privada que transforma un flujo administrativo manual basado en Excel en un sistema centralizado completamente automatizado.</p>
+  <p class="mt-3 text-lg sm:text-xl text-gray-300 max-w-2xl mx-auto">Plataforma web privada desarrollada para <strong>J&G Workforce Solution LLC</strong> (EE.UU.) — empresa de mi hermano — que transforma un flujo administrativo manual basado en Excel en un sistema centralizado completamente automatizado.</p>
 
   <div class="flex flex-wrap justify-center gap-2 sm:gap-3 mt-6 text-sm">
     <span class="tag-btn">Backend: Go</span>
@@ -30,7 +30,7 @@ title: JGMS — Automatización Empresarial
 
 <section class="glass-panel p-5 sm:p-7 mb-8" markdown="1">
 
-El proceso administrativo semanal de la empresa seguía un flujo completamente manual centrado en archivos Excel. Cada semana, un administrador debía:
+<strong>J&G Workforce Solution LLC</strong> es la empresa de mi hermano, ubicada en Estados Unidos y dedicada a servicios de instalación de vidrio y mano de obra para múltiples compañías clientes. Su proceso administrativo semanal seguía un flujo completamente manual centrado en archivos Excel. Cada semana, un administrador debía:
 
 - Recibir las horas trabajadas de cada empleado (por teléfono o mensaje)
 - Copiar manualmente las horas en una hoja de cálculo de facturación
@@ -88,7 +88,7 @@ No había registro de quién hizo qué ni cuándo. Si una factura se enviaba dos
 
 ### Una plataforma, un botón
 
-Diseñé y construí una aplicación web privada que centraliza todo el flujo de trabajo en una única plataforma. El administrador ahora:
+Diseñé y construí una aplicación web privada para la empresa de mi hermano que centraliza todo el flujo de trabajo en una única plataforma. El administrador ahora:
 
 1. Inicia sesión de forma segura
 2. Registra las horas y gastos semanales en un formulario web responsive
@@ -509,13 +509,14 @@ Este proyecto fue desarrollado utilizando un flujo de trabajo de <strong>desarro
 
 ### Impacto cualitativo
 
-- Eliminación del trabajo manual repetitivo en el ciclo semanal
+- Eliminación del trabajo manual repetitivo en el ciclo semanal de J&G Workforce Solution LLC
 - Centralización de toda la información del negocio en una base de datos PostgreSQL
 - Reducción drástica de errores de transcripción entre documentos
 - Trazabilidad completa: auditoría de quién hizo qué y cuándo
-- Acceso desde cualquier dispositivo (móvil, tablet, desktop)
+- Acceso desde cualquier dispositivo (móvil, tablet, desktop) — ideal para el equipo en obra
 - Compatibilidad preservada con los archivos Excel existentes de la empresa
-- Ciclo de aprobación obligatorio antes del envío de facturas
+- Ciclo de aprobación obligatorio antes del envío de facturas a clientes en EE.UU.
+- Mi hermano puede gestionar toda la operación semanal sin depender de procesos manuales
 
 </section>
 
@@ -527,7 +528,7 @@ Este proyecto fue desarrollado utilizando un flujo de trabajo de <strong>desarro
 
 <div class="glass-panel p-4">
 <h3 class="mt-0 text-sm neon-text">Traducir procesos de negocio a software</h3>
-<p class="text-gray-300 text-xs m-0">Modelar un flujo administrativo real — con sus reglas, estados, excepciones y compatibilidad con procesos legacy — en un sistema de software relacional.</p>
+<p class="text-gray-300 text-xs m-0">Modelar el flujo administrativo real de J&G Workforce Solution LLC — la empresa de mi hermano en EE.UU. — con sus reglas, estados, excepciones y compatibilidad con procesos legacy, en un sistema relacional.</p>
 </div>
 
 <div class="glass-panel p-4">

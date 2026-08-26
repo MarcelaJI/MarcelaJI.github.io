@@ -105,6 +105,21 @@ Diseñé y construí una aplicación web privada para la empresa de mi hermano q
 
 </section>
 
+<div class="mb-8">
+  <div class="terminal-shell">
+    <div class="terminal-head">
+      <div class="flex items-center gap-2">
+        <span class="dot" style="background: #ff5f56;"></span>
+        <span class="dot" style="background: #ffbd2e;"></span>
+        <span class="dot" style="background: #27c93f;"></span>
+      </div>
+      <span class="text-gray-500 text-sm">dashboard</span>
+    </div>
+    <img src="/assets/img/jgms-dashboard.png" alt="Panel principal de la plataforma JGMS" class="w-full h-auto">
+  </div>
+  <p class="text-gray-500 text-xs mt-2 text-center">Panel principal de la plataforma</p>
+</div>
+
 ### Diagrama del flujo automatizado
 
 <div class="terminal-shell mb-8">

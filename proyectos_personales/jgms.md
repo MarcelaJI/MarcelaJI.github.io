@@ -344,7 +344,7 @@ excelize   go-pdf     go-mail
 
 Como profesional de ciberseguridad, la seguridad fue una prioridad desde el diseño inicial. La aplicación maneja información financiera y datos personales, por lo que se implementaron múltiples controles:
 
-### Controles implementados
+<h3 class="mt-6 mb-3">Controles implementados</h3>
 
 <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4">
 <div class="border border-red-900/30 rounded-lg p-3">
@@ -385,7 +385,7 @@ Como profesional de ciberseguridad, la seguridad fue una prioridad desde el dise
 </div>
 </div>
 
-### Hardening continuo
+<h3 class="mt-6 mb-3">Hardening continuo</h3>
 
 El proyecto está completo y en producción. La seguridad es un proceso continuo: estas son las mejoras identificadas para el próximo ciclo de endurecimiento.
 
@@ -452,16 +452,18 @@ Este proyecto fue desarrollado utilizando un flujo de trabajo de <strong>desarro
 </div>
 </div>
 
-### Impacto cualitativo
+<h3 class="mt-6 mb-3">Impacto cualitativo</h3>
 
-- Eliminación del trabajo manual repetitivo en el ciclo semanal de J&G Workforce Solution LLC
-- Centralización de toda la información del negocio en una base de datos PostgreSQL
-- Reducción drástica de errores de transcripción entre documentos
-- Trazabilidad completa: auditoría de quién hizo qué y cuándo
-- Acceso desde cualquier dispositivo (móvil, tablet, desktop) — ideal para el equipo en obra
-- Compatibilidad preservada con los archivos Excel existentes de la empresa
-- Ciclo de aprobación obligatorio antes del envío de facturas a clientes en EE.UU.
-- Mi hermano puede gestionar toda la operación semanal sin depender de procesos manuales
+<ul class="text-gray-300 text-sm space-y-2">
+<li>Eliminación del trabajo manual repetitivo en el ciclo semanal de J&G Workforce Solution LLC</li>
+<li>Centralización de toda la información del negocio en una base de datos PostgreSQL</li>
+<li>Reducción drástica de errores de transcripción entre documentos</li>
+<li>Trazabilidad completa: auditoría de quién hizo qué y cuándo</li>
+<li>Acceso desde cualquier dispositivo (móvil, tablet, desktop) — ideal para el equipo en obra</li>
+<li>Compatibilidad preservada con los archivos Excel existentes de la empresa</li>
+<li>Ciclo de aprobación obligatorio antes del envío de facturas a clientes en EE.UU.</li>
+<li>Mi hermano puede gestionar toda la operación semanal sin depender de procesos manuales</li>
+</ul>
 
 </section>
 

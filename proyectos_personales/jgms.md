@@ -20,7 +20,7 @@ title: JGMS — Automatización Empresarial
   <div class="flex flex-wrap justify-center gap-4 mt-4 text-sm text-gray-400">
     <span>Rol: Full-Stack Developer & Arquitecta</span>
     <span class="text-gray-600">|</span>
-    <span>Status: Desplegado privadamente</span>
+    <span>Status: Completado · En producción</span>
   </div>
 </div>
 
@@ -385,7 +385,9 @@ Como profesional de ciberseguridad, la seguridad fue una prioridad desde el dise
 </div>
 </div>
 
-### Hardening pendiente (roadmap)
+### Hardening continuo
+
+El proyecto está completo y en producción. La seguridad es un proceso continuo: estas son las mejoras identificadas para el próximo ciclo de endurecimiento.
 
 <div class="mt-4 text-gray-400 text-sm">
 <p class="mb-2"><span class="text-yellow-500">→</span> Rate limiting por IP para prevenir fuerza bruta en login</p>
@@ -424,63 +426,6 @@ Este proyecto fue desarrollado utilizando un flujo de trabajo de <strong>desarro
 <p class="text-gray-400 text-sm mt-4">La IA fue utilizada como herramienta de aceleración y asistencia. Las decisiones de arquitectura, requisitos de negocio, validación de seguridad, testing y decisiones técnicas finales permanecieron bajo control humano en todo momento.</p>
 
 </section>
-
----
-
-## Proceso de Desarrollo
-
-<div class="mb-8">
-  <div class="flex flex-col gap-3">
-    <div class="flex items-center gap-3">
-      <span class="text-xs text-gray-500 w-16 text-right">Fase 1</span>
-      <div class="flex-1 bg-red-900/20 rounded-full h-6 relative overflow-hidden border border-red-900/30">
-        <div class="absolute inset-0 bg-red-800/40 w-full flex items-center pl-3 text-xs text-white">Fundación: Go, Next.js, PostgreSQL, auth JWT</div>
-      </div>
-    </div>
-    <div class="flex items-center gap-3">
-      <span class="text-xs text-gray-500 w-16 text-right">Fase 2</span>
-      <div class="flex-1 bg-red-900/20 rounded-full h-6 relative overflow-hidden border border-red-900/30">
-        <div class="absolute inset-0 bg-red-800/40 w-full flex items-center pl-3 text-xs text-white">CRUDs: Companies, Projects, Employees + W-4</div>
-      </div>
-    </div>
-    <div class="flex items-center gap-3">
-      <span class="text-xs text-gray-500 w-16 text-right">Fase 3</span>
-      <div class="flex-1 bg-red-900/20 rounded-full h-6 relative overflow-hidden border border-red-900/30">
-        <div class="absolute inset-0 bg-red-800/40 w-full flex items-center pl-3 text-xs text-white">Weekly Reports: horas multi-proyecto + gastos</div>
-      </div>
-    </div>
-    <div class="flex items-center gap-3">
-      <span class="text-xs text-gray-500 w-16 text-right">Fase 4</span>
-      <div class="flex-1 bg-red-900/20 rounded-full h-6 relative overflow-hidden border border-red-900/30">
-        <div class="absolute inset-0 bg-red-800/40 w-full flex items-center pl-3 text-xs text-white">Invoice + PDF + Archive + Excel + Email</div>
-      </div>
-    </div>
-    <div class="flex items-center gap-3">
-      <span class="text-xs text-gray-500 w-16 text-right">Fase 5</span>
-      <div class="flex-1 bg-red-900/20 rounded-full h-6 relative overflow-hidden border border-red-900/30">
-        <div class="absolute inset-0 bg-red-800/40 w-full flex items-center pl-3 text-xs text-white">Dashboard + 5 Reportes + Activity Log + Conciliación</div>
-      </div>
-    </div>
-    <div class="flex items-center gap-3">
-      <span class="text-xs text-gray-500 w-16 text-right">Fase 6</span>
-      <div class="flex-1 bg-red-900/20 rounded-full h-6 relative overflow-hidden border border-red-900/30">
-        <div class="absolute inset-0 bg-red-800/40 w-full flex items-center pl-3 text-xs text-white">IRS Pub 15-T + FICA + Overtime 1.5x + Per-diem</div>
-      </div>
-    </div>
-    <div class="flex items-center gap-3">
-      <span class="text-xs text-gray-500 w-16 text-right">Fase 7</span>
-      <div class="flex-1 bg-red-900/20 rounded-full h-6 relative overflow-hidden border border-red-900/30">
-        <div class="absolute inset-0 bg-red-800/40 w-full flex items-center pl-3 text-xs text-white">Testing: 188 tests unitarios y de integración</div>
-      </div>
-    </div>
-    <div class="flex items-center gap-3">
-      <span class="text-xs text-gray-500 w-16 text-right">Fase 8</span>
-      <div class="flex-1 bg-red-900/20 rounded-full h-6 relative overflow-hidden border border-red-900/30">
-        <div class="absolute inset-0 bg-red-800/40 w-[95%] flex items-center pl-3 text-xs text-white">Despliegue a producción (en progreso)</div>
-      </div>
-    </div>
-  </div>
-</div>
 
 ---
 
@@ -556,29 +501,6 @@ Este proyecto fue desarrollado utilizando un flujo de trabajo de <strong>desarro
 <p class="text-gray-300 text-xs m-0">Usar agentes de IA como herramientas de aceleración manteniendo el control sobre arquitectura, decisiones de seguridad, validación y calidad del código.</p>
 </div>
 
-</div>
-
----
-
-## Estado del Proyecto
-
-<div class="flex flex-wrap gap-4 mb-8 text-sm">
-  <div class="glass-panel px-4 py-3 flex items-center gap-2">
-    <span class="w-2 h-2 rounded-full bg-green-400"></span>
-    <span class="text-gray-200">20 de 21 fases completadas</span>
-  </div>
-  <div class="glass-panel px-4 py-3 flex items-center gap-2">
-    <span class="w-2 h-2 rounded-full bg-green-400"></span>
-    <span class="text-gray-200">188 tests pasando</span>
-  </div>
-  <div class="glass-panel px-4 py-3 flex items-center gap-2">
-    <span class="w-2 h-2 rounded-full bg-yellow-400"></span>
-    <span class="text-gray-200">Despliegue a prod en progreso</span>
-  </div>
-  <div class="glass-panel px-4 py-3 flex items-center gap-2">
-    <span class="w-2 h-2 rounded-full bg-green-400"></span>
-    <span class="text-gray-200">Usado en producción privada</span>
-  </div>
 </div>
 
 ---

@@ -527,7 +527,7 @@ Este proyecto fue desarrollado utilizando un flujo de trabajo de <strong>desarro
 
   <div class="flex flex-wrap justify-center gap-3 sm:gap-4 text-base sm:text-lg">
     <a class="tag-btn" href="mailto:ingridjimenez113@gmail.com">Email</a>
-    <a class="tag-btn" href="https://github.com/MarcelaJi" target="_blank" rel="noopener noreferrer">GitHub</a>
+    <a class="tag-btn" href="https://github.com/MarcelaJI" target="_blank" rel="noopener noreferrer">GitHub</a>
     <a class="tag-btn" href="https://linkedin.com/in/marcela-jimenez-/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
   </div>
 
